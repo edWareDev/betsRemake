@@ -1,0 +1,810 @@
+{
+  "playInMatchs": {
+    "updatedTime": 1689811010085,
+    "playInMatchs": {
+      "July 19-A": {
+        "match0": {
+          "teamName1": "Team Liquid",
+          "teamName2": "Entity",
+          "scoreTeam1": "1",
+          "scoreTeam2": "1",
+          "status": "Finalizado",
+          "timestamp": "1689757200",
+          "date": "July 19, 2023 - 04:00 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Team Aster",
+          "teamName2": "Virtus.pro",
+          "scoreTeam1": "2",
+          "scoreTeam2": "0",
+          "status": "Finalizado",
+          "timestamp": "1689757200",
+          "date": "July 19, 2023 - 04:00 UTC-5"
+        },
+        "match2": {
+          "teamName1": "Execration",
+          "teamName2": "TSM",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689757200",
+          "date": "July 19, 2023 - 04:00 UTC-5"
+        },
+        "match3": {
+          "teamName1": "Execration",
+          "teamName2": "Team Liquid",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689768300",
+          "date": "July 19, 2023 - 07:05 UTC-5"
+        },
+        "match4": {
+          "teamName1": "Virtus.pro",
+          "teamName2": "Entity",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689768300",
+          "date": "July 19, 2023 - 07:05 UTC-5"
+        },
+        "match5": {
+          "teamName1": "Team Aster",
+          "teamName2": "TSM",
+          "scoreTeam1": "1",
+          "scoreTeam2": "1",
+          "status": "Finalizado",
+          "timestamp": "1689768300",
+          "date": "July 19, 2023 - 07:05 UTC-5"
+        },
+        "match6": {
+          "teamName1": "Virtus.pro",
+          "teamName2": "Team Liquid",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689777900",
+          "date": "July 19, 2023 - 09:45 UTC-5"
+        },
+        "match7": {
+          "teamName1": "Execration",
+          "teamName2": "Team Aster",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689777900",
+          "date": "July 19, 2023 - 09:45 UTC-5"
+        },
+        "match8": {
+          "teamName1": "Entity",
+          "teamName2": "TSM",
+          "scoreTeam1": "1",
+          "scoreTeam2": "1",
+          "status": "Finalizado",
+          "timestamp": "1689778200",
+          "date": "July 19, 2023 - 09:50 UTC-5"
+        },
+        "match9": {
+          "teamName1": "TSM",
+          "teamName2": "Team Liquid",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689790800",
+          "date": "July 19, 2023 - 13:20 UTC-5"
+        },
+        "match10": {
+          "teamName1": "Entity",
+          "teamName2": "Team Aster",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689790800",
+          "date": "July 19, 2023 - 13:20 UTC-5"
+        },
+        "match11": {
+          "teamName1": "Execration",
+          "teamName2": "Virtus.pro",
+          "scoreTeam1": "1",
+          "scoreTeam2": "1",
+          "status": "Finalizado",
+          "timestamp": "1689791100",
+          "date": "July 19, 2023 - 13:25 UTC-5"
+        }
+      },
+      "July 19-B": {
+        "match0": {
+          "teamName1": "OG",
+          "teamName2": "Quest Esports",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689757200",
+          "date": "July 19, 2023 - 04:00 UTC-5"
+        },
+        "match1": {
+          "teamName1": "beastcoast",
+          "teamName2": "Team Secret",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689757200",
+          "date": "July 19, 2023 - 04:00 UTC-5"
+        },
+        "match2": {
+          "teamName1": "Xtreme Gaming",
+          "teamName2": "9Pandas",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689757200",
+          "date": "July 19, 2023 - 04:00 UTC-5"
+        },
+        "match3": {
+          "teamName1": "beastcoast",
+          "teamName2": "OG",
+          "scoreTeam1": "2",
+          "scoreTeam2": "0",
+          "status": "Finalizado",
+          "timestamp": "1689766800",
+          "date": "July 19, 2023 - 06:40 UTC-5"
+        },
+        "match4": {
+          "teamName1": "9Pandas",
+          "teamName2": "Quest Esports",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689766800",
+          "date": "July 19, 2023 - 06:40 UTC-5"
+        },
+        "match5": {
+          "teamName1": "Xtreme Gaming",
+          "teamName2": "Team Secret",
+          "scoreTeam1": "1",
+          "scoreTeam2": "1",
+          "status": "Finalizado",
+          "timestamp": "1689766800",
+          "date": "July 19, 2023 - 06:40 UTC-5"
+        },
+        "match6": {
+          "teamName1": "Quest Esports",
+          "teamName2": "Team Secret",
+          "scoreTeam1": "2",
+          "scoreTeam2": "0",
+          "status": "Finalizado",
+          "timestamp": "1689777900",
+          "date": "July 19, 2023 - 09:45 UTC-5"
+        },
+        "match7": {
+          "teamName1": "9Pandas",
+          "teamName2": "OG",
+          "scoreTeam1": "1",
+          "scoreTeam2": "1",
+          "status": "Finalizado",
+          "timestamp": "1689777900",
+          "date": "July 19, 2023 - 09:45 UTC-5"
+        },
+        "match8": {
+          "teamName1": "beastcoast",
+          "teamName2": "Xtreme Gaming",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689777900",
+          "date": "July 19, 2023 - 09:45 UTC-5"
+        },
+        "match9": {
+          "teamName1": "9Pandas",
+          "teamName2": "beastcoast",
+          "scoreTeam1": "2",
+          "scoreTeam2": "0",
+          "status": "Finalizado",
+          "timestamp": "1689790800",
+          "date": "July 19, 2023 - 13:20 UTC-5"
+        },
+        "match10": {
+          "teamName1": "Team Secret",
+          "teamName2": "OG",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689790500",
+          "date": "July 19, 2023 - 13:15 UTC-5"
+        },
+        "match11": {
+          "teamName1": "Quest Esports",
+          "teamName2": "Xtreme Gaming",
+          "scoreTeam1": "0",
+          "scoreTeam2": "2",
+          "status": "Finalizado",
+          "timestamp": "1689789300",
+          "date": "July 19, 2023 - 12:55 UTC-5"
+        }
+      },
+      "July 20-A": {
+        "match0": {
+          "teamName1": "Team Liquid",
+          "teamName2": "Team Aster",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689843600",
+          "date": "July 20, 2023 - 04:00 UTC-5"
+        },
+        "match1": {
+          "teamName1": "TSM",
+          "teamName2": "Virtus.pro",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689843600",
+          "date": "July 20, 2023 - 04:00 UTC-5"
+        },
+        "match2": {
+          "teamName1": "Execration",
+          "teamName2": "Entity",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689843600",
+          "date": "July 20, 2023 - 04:00 UTC-5"
+        }
+      },
+      "July 20-B": {
+        "match0": {
+          "teamName1": "beastcoast",
+          "teamName2": "Quest Esports",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689853500",
+          "date": "July 20, 2023 - 06:45 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Team Secret",
+          "teamName2": "9Pandas",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689853500",
+          "date": "July 20, 2023 - 06:45 UTC-5"
+        },
+        "match2": {
+          "teamName1": "OG",
+          "teamName2": "Xtreme Gaming",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689853500",
+          "date": "July 20, 2023 - 06:45 UTC-5"
+        }
+      }
+    }
+  },
+  "groupStageMatchs": {
+    "updatedTime": 1689811013274,
+    "groupStageMatchs": {
+      "July 21-A": {
+        "match0": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689930000",
+          "date": "July 21, 2023 - 04:00 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Gaimin Gladiators",
+          "teamName2": "Team Spirit",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689930000",
+          "date": "July 21, 2023 - 04:00 UTC-5"
+        },
+        "match2": {
+          "teamName1": "Evil Geniuses",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689930000",
+          "date": "July 21, 2023 - 04:00 UTC-5"
+        },
+        "match3": {
+          "teamName1": "PSG.LGD",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689930000",
+          "date": "July 21, 2023 - 04:00 UTC-5"
+        },
+        "match4": {
+          "teamName1": "Gaimin Gladiators",
+          "teamName2": "PSG.LGD",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689948900",
+          "date": "July 21, 2023 - 09:15 UTC-5"
+        },
+        "match5": {
+          "teamName1": "Evil Geniuses",
+          "teamName2": "Team Spirit",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689948900",
+          "date": "July 21, 2023 - 09:15 UTC-5"
+        },
+        "match6": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689948900",
+          "date": "July 21, 2023 - 09:15 UTC-5"
+        },
+        "match7": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689948900",
+          "date": "July 21, 2023 - 09:15 UTC-5"
+        }
+      },
+      "July 21-B": {
+        "match0": {
+          "teamName1": "Tundra Esports",
+          "teamName2": "BetBoom Team",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689939000",
+          "date": "July 21, 2023 - 06:30 UTC-5"
+        },
+        "match1": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689939000",
+          "date": "July 21, 2023 - 06:30 UTC-5"
+        },
+        "match2": {
+          "teamName1": "Shopify Rebellion",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689939000",
+          "date": "July 21, 2023 - 06:30 UTC-5"
+        },
+        "match3": {
+          "teamName1": "Talon Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689939000",
+          "date": "July 21, 2023 - 06:30 UTC-5"
+        },
+        "match4": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689957900",
+          "date": "July 21, 2023 - 11:45 UTC-5"
+        },
+        "match5": {
+          "teamName1": "Tundra Esports",
+          "teamName2": "Talon Esports",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689957900",
+          "date": "July 21, 2023 - 11:45 UTC-5"
+        },
+        "match6": {
+          "teamName1": "Shopify Rebellion",
+          "teamName2": "BetBoom Team",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689957900",
+          "date": "July 21, 2023 - 11:45 UTC-5"
+        },
+        "match7": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1689957900",
+          "date": "July 21, 2023 - 11:45 UTC-5"
+        }
+      },
+      "July 22-A": {
+        "match0": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690016400",
+          "date": "July 22, 2023 - 04:00 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Gaimin Gladiators",
+          "teamName2": "Evil Geniuses",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690016400",
+          "date": "July 22, 2023 - 04:00 UTC-5"
+        },
+        "match2": {
+          "teamName1": "Team Spirit",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690016400",
+          "date": "July 22, 2023 - 04:00 UTC-5"
+        },
+        "match3": {
+          "teamName1": "PSG.LGD",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690016400",
+          "date": "July 22, 2023 - 04:00 UTC-5"
+        },
+        "match4": {
+          "teamName1": "Team Spirit",
+          "teamName2": "PSG.LGD",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690035300",
+          "date": "July 22, 2023 - 09:15 UTC-5"
+        },
+        "match5": {
+          "teamName1": "Gaimin Gladiators",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690035300",
+          "date": "July 22, 2023 - 09:15 UTC-5"
+        },
+        "match6": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690035300",
+          "date": "July 22, 2023 - 09:15 UTC-5"
+        },
+        "match7": {
+          "teamName1": "Evil Geniuses",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690035300",
+          "date": "July 22, 2023 - 09:15 UTC-5"
+        }
+      },
+      "July 22-B": {
+        "match0": {
+          "teamName1": "Tundra Esports",
+          "teamName2": "Shopify Rebellion",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690025400",
+          "date": "July 22, 2023 - 06:30 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Talon Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690025400",
+          "date": "July 22, 2023 - 06:30 UTC-5"
+        },
+        "match2": {
+          "teamName1": "BetBoom Team",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690025400",
+          "date": "July 22, 2023 - 06:30 UTC-5"
+        },
+        "match3": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690025400",
+          "date": "July 22, 2023 - 06:30 UTC-5"
+        },
+        "match4": {
+          "teamName1": "Talon Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690044300",
+          "date": "July 22, 2023 - 11:45 UTC-5"
+        },
+        "match5": {
+          "teamName1": "Tundra Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690044300",
+          "date": "July 22, 2023 - 11:45 UTC-5"
+        },
+        "match6": {
+          "teamName1": "Shopify Rebellion",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690044300",
+          "date": "July 22, 2023 - 11:45 UTC-5"
+        },
+        "match7": {
+          "teamName1": "BetBoom Team",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690044300",
+          "date": "July 22, 2023 - 11:45 UTC-5"
+        }
+      },
+      "July 23-A": {
+        "match0": {
+          "teamName1": "Evil Geniuses",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690102800",
+          "date": "July 23, 2023 - 04:00 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Gaimin Gladiators",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690102800",
+          "date": "July 23, 2023 - 04:00 UTC-5"
+        },
+        "match2": {
+          "teamName1": "PSG.LGD",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690102800",
+          "date": "July 23, 2023 - 04:00 UTC-5"
+        },
+        "match3": {
+          "teamName1": "Team Spirit",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690102800",
+          "date": "July 23, 2023 - 04:00 UTC-5"
+        },
+        "match4": {
+          "teamName1": "Gaimin Gladiators",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690121700",
+          "date": "July 23, 2023 - 09:15 UTC-5"
+        },
+        "match5": {
+          "teamName1": "PSG.LGD",
+          "teamName2": "Evil Geniuses",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690121700",
+          "date": "July 23, 2023 - 09:15 UTC-5"
+        },
+        "match6": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690121700",
+          "date": "July 23, 2023 - 09:15 UTC-5"
+        },
+        "match7": {
+          "teamName1": "Team Spirit",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690121700",
+          "date": "July 23, 2023 - 09:15 UTC-5"
+        }
+      },
+      "July 23-B": {
+        "match0": {
+          "teamName1": "BetBoom Team",
+          "teamName2": "Talon Esports",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690111800",
+          "date": "July 23, 2023 - 06:30 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Tundra Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690111800",
+          "date": "July 23, 2023 - 06:30 UTC-5"
+        },
+        "match2": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690111800",
+          "date": "July 23, 2023 - 06:30 UTC-5"
+        },
+        "match3": {
+          "teamName1": "Shopify Rebellion",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690111800",
+          "date": "July 23, 2023 - 06:30 UTC-5"
+        },
+        "match4": {
+          "teamName1": "No Definido",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690130700",
+          "date": "July 23, 2023 - 11:45 UTC-5"
+        },
+        "match5": {
+          "teamName1": "Talon Esports",
+          "teamName2": "Shopify Rebellion",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690130700",
+          "date": "July 23, 2023 - 11:45 UTC-5"
+        },
+        "match6": {
+          "teamName1": "BetBoom Team",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690130700",
+          "date": "July 23, 2023 - 11:45 UTC-5"
+        },
+        "match7": {
+          "teamName1": "Tundra Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690130700",
+          "date": "July 23, 2023 - 11:45 UTC-5"
+        }
+      },
+      "July 24-A": {
+        "match0": {
+          "teamName1": "PSG.LGD",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690189200",
+          "date": "July 24, 2023 - 04:00 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Evil Geniuses",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690189200",
+          "date": "July 24, 2023 - 04:00 UTC-5"
+        },
+        "match2": {
+          "teamName1": "Team Spirit",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690189200",
+          "date": "July 24, 2023 - 04:00 UTC-5"
+        },
+        "match3": {
+          "teamName1": "Gaimin Gladiators",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690189200",
+          "date": "July 24, 2023 - 04:00 UTC-5"
+        }
+      },
+      "July 24-B": {
+        "match0": {
+          "teamName1": "Shopify Rebellion",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690199100",
+          "date": "July 24, 2023 - 06:45 UTC-5"
+        },
+        "match1": {
+          "teamName1": "Talon Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690199100",
+          "date": "July 24, 2023 - 06:45 UTC-5"
+        },
+        "match2": {
+          "teamName1": "BetBoom Team",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690199100",
+          "date": "July 24, 2023 - 06:45 UTC-5"
+        },
+        "match3": {
+          "teamName1": "Tundra Esports",
+          "teamName2": "No Definido",
+          "scoreTeam1": "0",
+          "scoreTeam2": "0",
+          "status": "Pendiente",
+          "timestamp": "1690199100",
+          "date": "July 24, 2023 - 06:45 UTC-5"
+        }
+      }
+    }
+  }
+}
