@@ -1,1 +1,0 @@
-export const MONGODB_CNX_STR = 'mongodb+srv://userprofile:userpassword@probet.qlmrztq.mongodb.net/prjBet'

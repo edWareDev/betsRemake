@@ -1,9 +1,8 @@
 const serverSocket = io('')
-let qLiveMatchs = 0;
-let qFutureMatchs = 0;
-let qPastMatchs = 0;
+let futureMatchs = 0;
+let pastMatchs = 0;
 let userID = ''
-const tournamentId = 'Dota2023Tour3Div1SA'
+const tournamentId = 'RiyadhMasters2023'
 
 const frasesEspera = [
     "Mientras esperas los resultados, los astros se ríen de tus decisiones.",
@@ -515,7 +514,7 @@ function colocarFraseAleatoria(stepFrase) {
         console.log(randNumber);
     }
 }
-document.querySelector('#cerrarSesion').addEventListener('click',(e) => {
+document.querySelector('#cerrarSesion').addEventListener('click', (e) => {
     e.preventDefault()
     localStorage.removeItem('session');
     location.reload();

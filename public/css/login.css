@@ -1,0 +1,140 @@
+@font-face {
+  font-family: MontBlack;
+  src: url("../fonts/Mont-Black.otf");
+}
+
+@font-face {
+  font-family: MontHeavy;
+  src: url("../fonts/Mont-Heavy.otf");
+}
+
+@font-face {
+  font-family: MontBold;
+  src: url("../fonts/Mont-Bold.otf");
+}
+
+@font-face {
+  font-family: MontSemiBold;
+  src: url("../fonts/Mont-SemiBold.otf");
+}
+
+@font-face {
+  font-family: MontRegular;
+  src: url("../fonts/Mont-Regular.otf");
+}
+
+@font-face {
+  font-family: MontBook;
+  src: url("../fonts/Mont-Book.otf");
+}
+
+@font-face {
+  font-family: MontLight;
+  src: url("../fonts/Mont-Light.otf");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 10px;
+  font-family: "MontLight", sans-serif;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background: black url("../img/backgroundLogin.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+}
+
+.formContainer {
+  background-color: #fff;
+  width: 36rem;
+  height: 46rem;
+  border-radius: 0 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formContainer .logoContainer {
+  width: 60%;
+  padding: 0.5rem;
+}
+
+.formContainer #formLogin {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.formContainer #formLogin label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.formContainer #formLogin label input {
+  width: 100%;
+  background-color: #0004fe;
+  border-radius: 1rem 0 1rem 0;
+  color: #fff;
+  font-family: "MontBook", sans-serif;
+  font-size: 1.4rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+}
+
+.formContainer #formLogin label input::placeholder {
+  color: rgba(255, 255, 255, 0.6666666667);
+}
+
+.formContainer #formLogin label #keepSession {
+  width: auto;
+  margin: 0 0.2rem;
+}
+
+.formContainer #formLogin button {
+  background-color: gold;
+  padding: 1rem 0.5rem;
+  font-size: 1.6rem;
+  font-family: "MontBold", sans-serif;
+  color: #0004fe;
+  border: none;
+  border-radius: 1rem 0 1rem 0;
+  width: 80%;
+  cursor: pointer;
+}
