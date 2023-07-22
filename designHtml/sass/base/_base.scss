@@ -1,0 +1,53 @@
+// 1200px / 16 = 75em
+// 992px / 16 = 62em
+// 864px / 16 = 54em
+// 768px / 16 = 48em
+// 672px / 16 = 42em
+// 576px / 16 = 36em
+// 480px
+// 320px
+$bp-xxlarge: 75em;
+$bp-xlarge: 62em;
+$bp-large: 54em;
+$bp-medium: 48em;
+$bp-small: 42em;
+$bp-xsmall: 36em;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 10px;
+
+    @media only screen and (max-width: $bp-xxlarge) {
+        font-size: 9px;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 8px;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 10px;
+    }
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}

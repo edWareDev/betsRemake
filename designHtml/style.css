@@ -1,0 +1,108 @@
+.inv {
+  display: none !important;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 10px;
+}
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 54em) {
+  html {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 42em) {
+  html {
+    font-size: 10px;
+  }
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+@font-face {
+  font-family: MontBlack;
+  src: url("../resources/fonts/Mont-Black.otf");
+}
+@font-face {
+  font-family: MontHeavy;
+  src: url("../resources/fonts/Mont-Heavy.otf");
+}
+@font-face {
+  font-family: MontBold;
+  src: url("../resources/fonts/Mont-Bold.otf");
+}
+@font-face {
+  font-family: MontSemiBold;
+  src: url("../resources/fonts/Mont-SemiBold.otf");
+}
+@font-face {
+  font-family: MontRegular;
+  src: url("../resources/fonts/Mont-Regular.otf");
+}
+@font-face {
+  font-family: MontBook;
+  src: url("../resources/fonts/Mont-Book.otf");
+}
+@font-face {
+  font-family: MontLight;
+  src: url("../resources/fonts/Mont-Light.otf");
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container {
+  border: 1px solid red;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+header .container .logoContainer {
+  min-width: 100px;
+  width: 15%;
+  border: 1px solid blue;
+}
+header .container .menu {
+  border: 1px solid green;
+  min-width: 100px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .container .userOptions {
+  border: 1px solid yellow;
+  min-width: 100px;
+  width: 15%;
+}
+
+/*# sourceMappingURL=style.css.map */

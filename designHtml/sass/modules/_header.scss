@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        border: 1px solid red;
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+
+        .logoContainer {
+            min-width: 100px;
+            width: 15%;
+            border: 1px solid blue;
+        }
+
+        .menu {
+            border: 1px solid green;
+            min-width: 100px;
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .userOptions {
+            border: 1px solid yellow;
+            min-width: 100px;
+            width: 15%;
+        }
+    }
+}

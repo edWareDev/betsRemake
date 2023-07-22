@@ -1,0 +1,44 @@
+@font-face {
+    font-family: MontBlack;
+    src: url('../resources/fonts/Mont-Black.otf');
+}
+
+@font-face {
+    font-family: MontHeavy;
+    src: url('../resources/fonts/Mont-Heavy.otf');
+}
+
+@font-face {
+    font-family: MontBold;
+    src: url('../resources/fonts/Mont-Bold.otf');
+}
+
+@font-face {
+    font-family: MontSemiBold;
+    src: url('../resources/fonts/Mont-SemiBold.otf');
+}
+
+@font-face {
+    font-family: MontRegular;
+    src: url('../resources/fonts/Mont-Regular.otf');
+}
+
+@font-face {
+    font-family: MontBook;
+    src: url('../resources/fonts/Mont-Book.otf');
+}
+
+@font-face {
+    font-family: MontLight;
+    src: url('../resources/fonts/Mont-Light.otf');
+}
+
+
+
+$font7: 'MontBlack', sans-serif;
+$font6: 'MontHeavy', sans-serif;
+$font5: 'MontBold', sans-serif;
+$font4: 'MontSemiBold', sans-serif;
+$font3: 'MontRegular', sans-serif;
+$font2: 'MontBook', sans-serif;
+$font1: 'MontLight', sans-serif;
