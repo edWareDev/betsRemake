@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>BETS Remake</title>
 </head>
 
@@ -12,24 +15,38 @@
     <header>
         <div class="container">
             <div class="logoContainer">
-                <h1>BETS REMAKE</h1>
+                <a class="logoContainer--link" href="#">
+                    <h1>BETS REMAKE</h1>
+                </a>
             </div>
             <ul class="menu">
-                <li class="menu__item"><a href="#" class="__menu__item__link">INICIO</a></li>
-                <li class="menu__item"><a href="#" class="__menu__item__link">RANKING</a></li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item--link">INICIO</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item--link">RANKING</a>
+                </li>
             </ul>
             <div class="userOptions">
                 <div class="userOptions__visible">
                     <div class="userOptions__visible__buttons">
-                        <a href="#" class="userOptions__visible__buttons--notifications">C</a>
-                        <a href="#" class="userOptions__visible__buttons--messages">M</a>
+                        <a href="#" class="userOptions__visible__buttons__notification">
+                            <i class="userOptions__visible__buttons__notification--icon fa-solid fa-bell"></i>
+                            <sup class="userOptions__visible__buttons__notification--indicator">5</sup>
+                        </a>
+                        <a href="#" class="userOptions__visible__buttons__messages">
+                            <i class="userOptions__visible__buttons__messages--icon fa-solid fa-message"></i>
+                            <sup class="userOptions__visible__buttons__messages--indicator">3</sup>
+                        </a>
                     </div>
                     <div class="userOptions__visible__userData">
                         <a href="#" class="userOptions__visible__userData--wallet">COINS: 500</a>
-                        <a href="#" class="userOptions__visible__userData--options">O</a>
+                        <a href="#" class="userOptions__visible__userData__options">
+                            <i class="userOptions__visible__userData__options--icon fa-solid fa-user"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="userOptions__invisible inv">
+                <div class="userOptions__invisible">
                     <ul class="userOptions__invisible__actions">
                         <li class="userOptions__invisible__actions__item">
                             <a href="#" class="userOptions__invisible__actions__item--link">Mi Perfil</a>
@@ -49,75 +66,93 @@
         </div>
     </header>
     <main>
-        <div class="banner">
-            <ul class="banner__options">
-                <li class="banner__options__item">
-                    <a href="#" class="banner__options__itembanner__options__item--link">Torneo</a>
-                </li>
-                <li class="banner__options__item">
-                    <a href="#" class="banner__options__itembanner__options__item--link">Stream</a>
-                </li>
-            </ul>
-        </div>
-        <div class="content">
-            <div class="content__active">
-                <div class="content__active--title">ACTIVOS</div>
-                <div class="content__active__cards">
-                    <div class="content__active__cards--card">
-                        <div class="topInfo">
-                            <p>Some Text 1</p>
-                            <p>Some Text 2</p>
-                        </div>
-                        <div class="midInfo">
-                            <div class="midInfo__team1Data">
-                                <div class="midInfo__team1Data__iconContainer">
-                                    <img src="#" alt="#">
-                                </div>
-                                <div class="midInfo__team1Data--teamName">Team 1</div>
-                                <div class="midInfo__team1Data--teamScore">0</div>
+        <div class="container">
+            <div class="banner">
+                <div class="banner__video">
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="banner__data">
+                    <div class="banner__data__info">
+                        <h2 class="banner__data__info--title">Nombre del Torneo 2023</h2>
+                        <h3 class="banner__data__info--description">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Fugit tempora repellat atque culpa voluptates nulla, architecto aspernatur asperiores
+                            odio. Alias quisquam iusto dignissimos dolorum.</h3>
+                    </div>
+                    <form method="post" action="/tournamentPrediction" class="banner__data__prediction">
+                        <label for="teams">
+                            ¡Predice el equipo que ganará el torneo!
+                            <select id="teams" name="teams">
+                                <option value="volvo">Evil Geniuses</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="volvo">Volvo</option>
+                            </select>
+                        </label>
+                        <input type="submit" value="Predecir!">
+                    </form>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content__active">
+                    <div class="content__active--title">ACTIVOS</div>
+                    <div class="content__active__cards">
+                        <div class="content__active__cards--card">
+                            <div class="topInfo">
+                                <p>Some Text 1</p>
+                                <p>Some Text 2</p>
                             </div>
-                            <div class="midInfo--separator">:</div>
-                            <div class="midInfo__team2Data">
-                                <div class="midInfo__team2Data--teamScore">0</div>
-                                <div class="midInfo__team2Data--teamName">Team 2</div>
-                                <div class="midInfo__team2Data__iconContainer">
-                                    <img src="#" alt="#">
+                            <div class="midInfo">
+                                <div class="midInfo__team1Data">
+                                    <div class="midInfo__team1Data__iconContainer">
+                                        <img src="#" alt="#">
+                                    </div>
+                                    <div class="midInfo__team1Data--teamName">Team 1</div>
+                                    <div class="midInfo__team1Data--teamScore">0</div>
+                                </div>
+                                <div class="midInfo--separator">:</div>
+                                <div class="midInfo__team2Data">
+                                    <div class="midInfo__team2Data--teamScore">0</div>
+                                    <div class="midInfo__team2Data--teamName">Team 2</div>
+                                    <div class="midInfo__team2Data__iconContainer">
+                                        <img src="#" alt="#">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="bottomInfo">
-                            <button>Action</button>
+                            <div class="bottomInfo">
+                                <button>Action</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="content__inactive">
-                <div class="content__inactive--title">ANTERIORES</div>
-                <div class="content__active__cards">
-                    <div class="content__active__cards--card">
-                        <div class="date">12/12/12 12:12</div>
-                        <div class="matchResult">
-                            <div class="matchResult__iconContainer">
-                                <img src="#" alt="#">
-                            </div>
-                            <div class="matchResult__scoreTeam">0</div>
-                            <div class="matchResult--separator">:</div>
-                            <div class="matchResult__scoreTeam">0</div>
-                            <div class="matchResult__iconContainer">
-                                <img src="#" alt="#">
+                <div class="content__inactive">
+                    <div class="content__inactive--title">ANTERIORES</div>
+                    <div class="content__active__cards">
+                        <div class="content__active__cards--card">
+                            <div class="date">12/12/12 12:12</div>
+                            <div class="matchResult">
+                                <div class="matchResult__iconContainer">
+                                    <img src="#" alt="#">
+                                </div>
+                                <div class="matchResult__scoreTeam">0</div>
+                                <div class="matchResult--separator">:</div>
+                                <div class="matchResult__scoreTeam">0</div>
+                                <div class="matchResult__iconContainer">
+                                    <img src="#" alt="#">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="content__chat">
+                    <div class="content__chat__history"></div>
+                    <form action="#" class="content__newMessage">
+                        <input type="text" class="content__newMessage--text">
+                        <a href="·">Emoji</a>
+                        <input type="submit" class="content__newMessage--send">
+                    </form>
+                </div>
             </div>
-            <div class="content__chat">
-                <div class="content__chat__history"></div>
-                <form action="#" class="content__newMessage">
-                    <input type="text" class="content__newMessage--text">
-                    <input type="submit" class="content__newMessage--send">
-                </form>
-            </div>
-        </div>
+
     </main>
 </body>
 

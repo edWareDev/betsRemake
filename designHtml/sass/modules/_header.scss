@@ -7,15 +7,30 @@ header {
         border: 1px solid red;
         max-width: 1200px;
         width: 100%;
+        min-height: 60px;
+        height:60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 1rem;
+        padding: .5rem 1rem;
 
         .logoContainer {
             min-width: 100px;
             width: 15%;
+            height: 100%;
             border: 1px solid blue;
+            background-color: green;
+            display: block;
+
+            &--link {
+                width: 100%;
+                height: 100%;
+                // background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
         }
 
         .menu {
@@ -25,12 +40,133 @@ header {
             display: flex;
             justify-content: space-around;
             align-items: center;
+
+            &__item {
+
+                &--link {
+                    display: block;
+                    padding: .5rem;
+                    font-size: 1.4rem;
+                    color: red;
+                    transition: color .3s, background .3s;
+
+                    &:hover {
+                        color: white;
+                        background-color: red;
+                    }
+                }
+            }
         }
 
         .userOptions {
             border: 1px solid yellow;
-            min-width: 100px;
+            min-width: 150px;
             width: 15%;
+            height: 100%;
+            position: relative;
+
+            &__visible {
+                border: 1px solid red;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                &__buttons {
+                    width: 30%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    a {
+                        font-size: 1.8rem;
+                        position: relative;
+                        color: red;
+                        padding: .3rem;
+                    }
+
+                    sup {
+                        background-color: black;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -.2rem;
+                        right: -.2rem;
+                        font-size: 1rem;
+                        height: 1.4rem;
+                        width: 1.4rem;
+                        border-radius: .5rem;
+                    }
+
+
+                }
+
+                &__userData {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    &--wallet {
+                        // background-color: blue;
+                        font-size: 1.2rem;
+                        color: red;
+                    }
+
+                    &__options {
+                        // background-color: blue;
+                        border-radius: 2rem;
+                        border: 2px solid red;
+
+                        &--icon {
+                            font-size: 2rem;
+                            padding: 1rem;
+                            color: red;
+                        }
+                    }
+                }
+            }
+
+            &__invisible {
+                position: absolute;
+                right: 0;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid red;
+
+                &__actions {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    gap: .5rem;
+                    padding: .5rem 0;
+
+                    &__item {
+                        font-size: 1.2rem;
+                        width: 100%;
+
+                        &--link {
+                            display: block;
+                            color: red;
+                            width: 100%;
+                            transition: background .3s, color .3s;
+
+                            &:hover {
+                                background-color: red;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
