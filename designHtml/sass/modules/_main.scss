@@ -1,24 +1,25 @@
 main {
-    background-color: red;
+    // background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: calc(100vh - 60px);
 
     .container {
         max-width: 1200px;
         width: 100%;
+        height: calc(100vh - 60px);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
         .banner {
-            background-color: green;
+            border: 1px solid green;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 60vh;
-            max-height: 400px;
+            height: 40rem;
             width: 100%;
 
             &__video {
@@ -50,14 +51,14 @@ main {
 
                     &--title {
                         font-size: 2.4rem;
-                        color: white;
+                        color: black;
                     }
 
                     &--description {
                         font-size: 1.4rem;
                         text-align: center;
                         font-weight: 100;
-                        color: white;
+                        color: black;
                     }
                 }
 
@@ -88,6 +89,211 @@ main {
                         font-size: 1.5rem;
                     }
                 }
+            }
+        }
+
+        .content {
+            // background-color: blue;
+            width: 100%;
+            height: calc(100% - 40rem);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &__active {
+                background-color: yellow;
+                height: 100%;
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                &--title {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    height: 10%;
+                    width: 100%;
+                    background-color: red;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                &__cards {
+                    // background-color: red;
+                    width: 100%;
+                    height: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    overflow-y: auto;
+                    position: relative;
+                    gap: .5rem;
+
+                    &--card {
+                        background-color: blue;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: .5rem;
+
+                        .topInfo {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0 1rem;
+                        }
+
+                        .midInfo {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+
+                            &__teamData {
+                                display: flex;
+                                justify-content: space-between;
+                                margin: 0 2rem;
+                                align-items: center;
+                                gap: 1rem;
+                                width: 45%;
+
+                                &__iconContainer {
+                                    width: 4rem;
+                                    height: 4rem;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: contain;
+                                    }
+                                }
+
+                                &--teamName {
+                                    font-size: 1.6rem;
+                                }
+
+                                &--teamScore {
+                                    font-size: 2rem;
+                                }
+                            }
+
+                            &--separator {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 10%;
+                                // background-color: red;
+                                font-weight: 900;
+                                font-size: 1.6rem;
+                            }
+                        }
+
+                        .bottomInfo {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            button {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__inactive {
+                background-color: skyblue;
+                height: 100%;
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                &--title {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    height: 10%;
+                    width: 100%;
+                    background-color: red;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                &__cards {
+                    // background-color: red;
+                    width: 100%;
+                    height: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    overflow-y: auto;
+                    position: relative;
+
+                    &--card {
+                        background-color: blue;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 1rem;
+
+                        .dateTime {
+                            width: 25%;
+                            // background-color: red;
+                            font-size: 1rem;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                        }
+
+                        .matchResult {
+                            width: 70%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            &__iconContainer {
+                                width: 3rem;
+                                height: 3rem;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
+                                }
+                            }
+
+                            &__scoreTeam {
+                                font-size: 1.6rem;
+                            }
+
+                            &--separator {
+                                font-weight: 900;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__chat {
+                background-color: peru;
+                height: 100%;
+                width: 35%;
             }
         }
     }
