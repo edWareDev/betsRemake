@@ -2,24 +2,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $color3;
+    // box-shadow: $boxShadow;
 
     .container {
-        border: 1px solid red;
         max-width: 1200px;
         width: 100%;
         min-height: 60px;
-        height:60px;
+        height: 60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: .5rem 1rem;
 
         .logoContainer {
             min-width: 100px;
             width: 15%;
             height: 100%;
-            border: 1px solid blue;
-            // background-color: green;
+            // border: 1px solid blue;
             display: block;
 
             &--link {
@@ -28,12 +27,13 @@ header {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                color: $color0;
+                font-size: 1rem;
+                font-weight: 900;
             }
-
         }
 
         .menu {
-            border: 1px solid green;
             min-width: 100px;
             width: 30%;
             display: flex;
@@ -43,29 +43,32 @@ header {
             &__item {
 
                 &--link {
+                    width: 150px;
+                    text-align: center;
                     display: block;
                     padding: .5rem;
-                    font-size: 1.4rem;
-                    color: red;
-                    transition: color .3s, background .3s;
+                    font-size: 1.6rem;
+                    font-weight: 900;
+                    color: $color0;
+                    transition: color .2s, background .2s;
 
                     &:hover {
-                        color: white;
-                        background-color: red;
+                        color: $color5;
+                        background-color: $color0;
+                        text-decoration: underline;
                     }
                 }
             }
         }
 
         .userOptions {
-            border: 1px solid yellow;
+            // border: 1px solid yellow;
             min-width: 150px;
-            width: 15%;
+            width: 17%;
             height: 100%;
             position: relative;
 
             &__visible {
-                border: 1px solid red;
                 width: 100%;
                 height: 100%;
                 display: flex;
@@ -81,13 +84,13 @@ header {
                     a {
                         font-size: 1.8rem;
                         position: relative;
-                        color: red;
+                        color: $color0;
                         padding: .3rem;
                     }
 
                     sup {
-                        background-color: black;
-                        color: white;
+                        background-color: $color1;
+                        color: $color4;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -98,6 +101,7 @@ header {
                         height: 1.4rem;
                         width: 1.4rem;
                         border-radius: .5rem;
+                        border: .02rem solid $color5;
                     }
 
 
@@ -110,20 +114,25 @@ header {
                     align-items: center;
 
                     &--wallet {
-                        // background-color: blue;
                         font-size: 1.2rem;
-                        color: red;
+                        font-weight: 600;
+                        color: $color0;
+
+                        .quantity {
+                            font-size: 1.3rem;
+                            color: $color2;
+                            font-weight: 700;
+                        }
                     }
 
                     &__options {
-                        // background-color: blue;
                         border-radius: 2rem;
-                        border: 2px solid red;
+                        border: 2px solid $color0;
 
                         &--icon {
                             font-size: 2rem;
                             padding: 1rem;
-                            color: red;
+                            color: $color0;
                         }
                     }
                 }
@@ -132,11 +141,14 @@ header {
             &__invisible {
                 position: absolute;
                 right: 0;
+                top: 52px;
                 width: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border: 1px solid red;
+                background-color: $color3;
+                box-shadow: $boxShadow;
+                z-index: 5;
 
                 &__actions {
                     text-align: center;
@@ -145,8 +157,6 @@ header {
                     justify-content: center;
                     align-items: center;
                     width: 100%;
-                    gap: .5rem;
-                    padding: .5rem 0;
 
                     &__item {
                         font-size: 1.2rem;
@@ -154,13 +164,15 @@ header {
 
                         &--link {
                             display: block;
-                            color: red;
+                            color: $color0;
                             width: 100%;
                             transition: background .3s, color .3s;
+                            padding: .8rem 0;
+                            font-weight: 600;
 
                             &:hover {
-                                background-color: red;
-                                color: white;
+                                background-color: $color0;
+                                color: $color5;
                             }
                         }
                     }

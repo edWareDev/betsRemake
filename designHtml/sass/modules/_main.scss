@@ -6,25 +6,23 @@ main {
     height: calc(100vh - 60px);
 
     .container {
+        position: relative;
         max-width: 1200px;
         width: 100%;
         height: calc(100vh - 60px);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(2, 50%);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
 
-        .banner {
-            border: 1px solid green;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 40rem;
-            width: 100%;
+        .videoPlayerContainer {
+            grid-area: 1 / 1 / 2 / 6;
+            padding: .2rem;
 
-            &__video {
+            .videoPlayer {
                 background-color: black;
-                width: 60%;
+                width: 100%;
                 height: 100%;
                 display: flex;
                 justify-content: center;
@@ -32,17 +30,25 @@ main {
                 color: white;
                 font-size: 6rem;
             }
+        }
 
-            &__data {
-                width: 40%;
+        .tournamentContainer {
+            grid-area: 2 / 1 / 3 / 3;
+            padding: .2rem;
+
+            .tournament {
+                border: 1px solid $color5;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 gap: 1rem;
+                width: 100%;
+                height: 100%;
+                background-color: $color5;
 
                 &__info {
-                    width: 80%;
+                    width: 90%;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -51,19 +57,24 @@ main {
 
                     &--title {
                         font-size: 2.4rem;
-                        color: black;
+                        color: $color0;
+                        text-align: center;
+                        background-color: $color3;
+                        padding: .4rem 0;
+                        box-shadow: $boxShadow;
+                        transform: rotate(1deg);
                     }
 
                     &--description {
                         font-size: 1.4rem;
                         text-align: center;
                         font-weight: 100;
-                        color: black;
+                        color: $color0;
                     }
                 }
 
                 &__prediction {
-                    width: 80%;
+                    width: 90%;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -75,174 +86,80 @@ main {
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
+                        text-align: center;
                         font-size: 2rem;
                         gap: .5rem;
                         color: gold;
 
                         select {
-                            padding: .5rem;
+                            padding: 1rem .5rem;
+                            width: 94%;
+                            outline: none;
+                            border: none;
+                            background-color: $color4;
+                            color: $color3;
+                            text-align: center;
+                            text-transform: uppercase;
+                            font-weight: 900;
+                            box-shadow: $boxShadow;
+                            transform: rotate(-2deg);
                         }
                     }
 
                     input {
                         padding: .5rem 1rem;
                         font-size: 1.5rem;
+                        width: 90%;
+                        background-color: $color3;
+                        border: none;
+                        color: $color0;
+                        font-weight: 600;
+                        box-shadow: $boxShadow;
+                        transform: rotate(2deg);
+                        cursor: pointer;
                     }
                 }
             }
+
         }
 
-        .content {
-            // background-color: blue;
-            width: 100%;
-            height: calc(100% - 40rem);
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .pastResultsContainer {
+            grid-area: 2 / 3 / 3 / 6;
+            padding: .2rem;
 
-            &__active {
-                background-color: yellow;
+            .pastResults {
                 height: 100%;
-                width: 45%;
+                width: 100%;
+                border: 1px solid $color3;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: flex-start;
                 align-items: center;
 
                 &--title {
-                    font-size: 1.6rem;
+                    background-color: $color3;
+                    color: $color0;
+                    font-size: 1.2rem;
                     text-align: center;
-                    height: 10%;
+                    height: 2rem;
                     width: 100%;
-                    background-color: red;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
 
                 &__cards {
-                    // background-color: red;
                     width: 100%;
-                    height: 90%;
+                    height: calc(100% - 2rem);
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    overflow-y: auto;
-                    position: relative;
-                    gap: .5rem;
-
-                    &--card {
-                        background-color: blue;
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        padding: .5rem;
-
-                        .topInfo {
-                            width: 100%;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            padding: 0 1rem;
-                        }
-
-                        .midInfo {
-                            width: 100%;
-                            display: flex;
-                            justify-content: space-around;
-                            align-items: center;
-
-                            &__teamData {
-                                display: flex;
-                                justify-content: space-between;
-                                margin: 0 2rem;
-                                align-items: center;
-                                gap: 1rem;
-                                width: 45%;
-
-                                &__iconContainer {
-                                    width: 4rem;
-                                    height: 4rem;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-
-                                    img {
-                                        width: 100%;
-                                        height: 100%;
-                                        object-fit: contain;
-                                    }
-                                }
-
-                                &--teamName {
-                                    font-size: 1.6rem;
-                                }
-
-                                &--teamScore {
-                                    font-size: 2rem;
-                                }
-                            }
-
-                            &--separator {
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                width: 10%;
-                                // background-color: red;
-                                font-weight: 900;
-                                font-size: 1.6rem;
-                            }
-                        }
-
-                        .bottomInfo {
-                            width: 100%;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-
-                            button {
-                                width: 100%;
-                                height: 100%;
-                            }
-                        }
-                    }
-                }
-            }
-
-            &__inactive {
-                background-color: skyblue;
-                height: 100%;
-                width: 20%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                &--title {
-                    font-size: 1.6rem;
-                    text-align: center;
-                    height: 10%;
-                    width: 100%;
-                    background-color: red;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-
-                &__cards {
-                    // background-color: red;
-                    width: 100%;
-                    height: 90%;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    overflow-y: auto;
+                    overflow-y: scroll;
+                    padding: .5rem;
                     position: relative;
 
                     &--card {
-                        background-color: blue;
+                        border: 1px solid $color3;
                         width: 100%;
                         display: flex;
                         justify-content: space-between;
@@ -250,18 +167,20 @@ main {
                         padding: 1rem;
 
                         .dateTime {
-                            width: 25%;
-                            // background-color: red;
-                            font-size: 1rem;
+                            width: 20%;
+                            font-size: 1.1rem;
+                            color: $color1;
+                            text-transform: uppercase;
                             display: flex;
-                            flex-direction: column;
+                            flex-direction: row;
                             justify-content: center;
                             align-items: center;
                             text-align: center;
+                            gap: .5rem;
                         }
 
                         .matchResult {
-                            width: 70%;
+                            width: 76%;
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
@@ -277,24 +196,309 @@ main {
                                 }
                             }
 
+                            &--teamName {
+                                // background-color: red;
+                                text-transform: uppercase;
+                                font-size: 1.1rem;
+                                font-family: $font7;
+                            }
+
                             &__scoreTeam {
-                                font-size: 1.6rem;
+                                font-size: 1.5rem;
+                                color: $color3;
+                                font-weight: 600;
                             }
 
                             &--separator {
                                 font-weight: 900;
-                                font-size: 1.4rem;
+                                font-size: 1.2rem;
                             }
                         }
                     }
                 }
             }
+        }
 
-            &__chat {
-                background-color: peru;
+        .liveResultsContainer {
+            grid-area: 1 / 6 / 3 / 10;
+            padding: .2rem;
+
+            .liveResults {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
                 height: 100%;
-                width: 35%;
+                border: 1px solid $color4;
+
+                &--title {
+                    background-color: $color4;
+                    color: $color0;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    height: 2rem;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                &__cards {
+                    width: 100%;
+                    height: calc(100% - 2rem);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    overflow-y: scroll;
+                    position: relative;
+                    gap: .5rem;
+                    padding: .5rem;
+
+                    &--card {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: .2rem;
+                        gap: .5rem;
+                        border: 1px solid $color4;
+
+                        .topInfo {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0 .5rem;
+                            border-bottom: 1px solid rgba($color: $color1, $alpha: .2);
+
+                            .stage {
+                                // background-color: red;
+                                width: 25%;
+                                text-align: left;
+                                color: $color1;
+                            }
+
+                            .bo {
+                                width: 25%;
+                                text-align: center;
+                                font-weight: 900;
+                                font-size: 1.2rem;
+                                color: $color3;
+                            }
+
+                            .dateTime {
+                                width: 25%;
+                                text-align: right;
+                                color: $color1;
+                            }
+                        }
+
+                        .midInfo {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            padding: 0 .5rem;
+
+                            &__teamData {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                width: 48%;
+                                // background-color: red;
+
+                                &__iconContainer {
+                                    width: 20%;
+                                    height: 4rem;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    // background-color: green;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: contain;
+                                    }
+                                }
+
+                                &--teamName {
+                                    width: 60%;
+                                    // background-color: blue;
+                                    text-align: center;
+                                    font-size: 1.6rem;
+                                }
+
+                                &--teamScore {
+                                    width: 10%;
+                                    text-align: center;
+                                    // background-color: yellow;
+                                    font-size: 2rem;
+                                }
+                            }
+
+                            &--separator {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 4%;
+                                min-width: 2rem;
+                                font-weight: 900;
+                                font-size: 1.2rem;
+                            }
+                        }
+
+                        .bottomInfo {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            button {
+                                width: 100%;
+                                height: 100%;
+                                color: $color3;
+                                font-weight: 600;
+                                font-size: 1.2rem;
+                                background-color: $color2;
+                                border: 1px solid $color3;
+                                padding: .4rem;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
             }
+        }
+
+        .chatContainer {
+            position: absolute;
+            right: 2.5rem;
+            bottom: .2rem;
+            height: 100vh;
+            max-height: 40rem;
+            width: 100vw;
+            max-width: 30rem;
+            background-color: $color0;
+            box-shadow: $boxShadow;
+            transition: height .4s;
+
+            .chat {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+
+                &__topBar {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 5%;
+                    width: 100%;
+                    background-color: $color5;
+                    color: $color0;
+                    text-transform: uppercase;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    gap: 1rem;
+                    padding: 0 .5rem;
+                    height: 2rem;
+                }
+
+                &__history {
+                    height: 88%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5rem;
+                    padding: .5rem;
+                    overflow-y: scroll;
+
+                    &__container {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 90%;
+                        gap: .1rem;
+                        padding: .2rem .4rem;
+                        border-radius: .5rem;
+
+
+                        &--user {
+                            font-size: .9rem;
+                            font-weight: 300;
+                            color: $color0;
+                            align-self: flex-start;
+                        }
+
+                        &--message {
+                            font-size: 1.2rem;
+                            font-weight: 100;
+                            background-color: rgba($color: $color6, $alpha: .1);
+                            color: $color0;
+                            border-radius: .5rem;
+                            padding: .2rem .4rem;
+                        }
+
+                        &--date {
+                            font-size: .8rem;
+                            align-self: flex-end;
+                            color: $color0;
+                        }
+                    }
+
+                    .received {
+                        background-color: $color5;
+                        align-self: flex-start;
+                    }
+
+                    .sent {
+                        background-color: $color4;
+                        align-self: flex-end;
+                    }
+                }
+
+                &__newMessage {
+                    height: 5%;
+                    width: 90%;
+                    margin-bottom: 1%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: rgba($color: $color1, $alpha: .4);
+                    // border-top: 1px solid #0005;
+                    border-radius: .5rem;
+                    padding: .2rem;
+
+                    &--text {
+                        width: 85%;
+                        height: 100%;
+                        outline: none;
+                        padding: 0 .5rem;
+                        font-size: 1.1rem;
+                        border: none;
+                        background-color: transparent;
+                        color: $color6 ;
+                    }
+
+                    button {
+                        width: 1.8rem;
+                        height: 1.8rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: transparent;
+                        border: none;
+                        color: $color1 // width: 5%;
+                    }
+                }
+            }
+
+
         }
     }
 }

@@ -1,0 +1,354 @@
+<header>
+    <div class="container">
+        <div class="logoContainer">
+            <a class="logoContainer--link" href="#">
+                <h1>BETS REMAKE</h1>
+            </a>
+        </div>
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="#" class="menu__item--link">INICIO</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__item--link">RANKING</a>
+            </li>
+        </ul>
+        <div class="userOptions">
+            <div class="userOptions__visible">
+                <div class="userOptions__visible__buttons">
+                    <a href="javascript:void(0);" class="userOptions__visible__buttons__notification">
+                        <i class="userOptions__visible__buttons__notification--icon fa-solid fa-bell"></i>
+                        <sup class="userOptions__visible__buttons__notification--indicator">5</sup>
+                    </a>
+                    <a href="javascript:void(0);" class="userOptions__visible__buttons__messages">
+                        <i class="userOptions__visible__buttons__messages--icon fa-solid fa-message"></i>
+                        <sup class="userOptions__visible__buttons__messages--indicator">3</sup>
+                    </a>
+                </div>
+                <div class="userOptions__visible__userData">
+                    <a href="#" class="userOptions__visible__userData--wallet">COINS: <span
+                            class="quantity">500</span></a>
+                    <a href="#" class="userOptions__visible__userData__options">
+                        <i class="userOptions__visible__userData__options--icon fa-solid fa-user"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="userOptions__invisible inv">
+                <ul class="userOptions__invisible__actions">
+                    <li class="userOptions__invisible__actions__item">
+                        <a href="#" class="userOptions__invisible__actions__item--link">Mi Perfil</a>
+                    </li>
+                    <li class="userOptions__invisible__actions__item">
+                        <a href="#" class="userOptions__invisible__actions__item--link">Mis Predicciones</a>
+                    </li>
+                    <li class="userOptions__invisible__actions__item">
+                        <a href="#" class="userOptions__invisible__actions__item--link">Agregar Coins</a>
+                    </li>
+                    <li class="userOptions__invisible__actions__item">
+                        <a href="#" class="userOptions__invisible__actions__item--link">Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="videoPlayerContainer">
+            <div class="videoPlayer">
+                <i class="fa-regular fa-circle-play"></i>
+            </div>
+        </div>
+        <div class="tournamentContainer">
+            <div class="tournament">
+                <div class="tournament__info">
+                    <h2 class="tournament__info--title">Nombre del Torneo 2023</h2>
+                    <h3 class="tournament__info--description">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Fugit tempora repellat atque culpa voluptates nulla, architecto aspernatur asperiores
+                        odio. Alias quisquam iusto dignissimos dolorum.</h3>
+                </div>
+                <form method="post" action="/tournamentPrediction" class="tournament__prediction">
+                    <label for="teams">
+                        ¡Predice el equipo que ganará el torneo!
+                        <select id="teams" name="teams">
+                            <option value="volvo">Evil Geniuses</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="volvo">Volvo</option>
+                        </select>
+                    </label>
+                    <input type="submit" value="Predecir!">
+                </form>
+            </div>
+        </div>
+        <div class="pastResultsContainer">
+            <div class="pastResults">
+                <h3 class="pastResults--title">RESULTADOS ANTERIORES</h3>
+                <div class="pastResults__cards">
+                    <div class="pastResults__cards--card">
+                        <div class="dateTime">
+                            <div class="dateTime--date">
+                                12/12/12
+                            </div>
+                            <div class="dateTime--time">
+                                12:12
+                            </div>
+                        </div>
+                        <div class="matchResult">
+                            <div class="matchResult__iconContainer">
+                                <img src="./img/team_liquid.png" alt="#">
+                            </div>
+                            <div class="matchResult--teamName">Team Liquid</div>
+                            <div class="matchResult__scoreTeam">0</div>
+                            <div class="matchResult--separator">:</div>
+                            <div class="matchResult__scoreTeam">0</div>
+                            <div class="matchResult--teamName">Team Secret</div>
+                            <div class="matchResult__iconContainer">
+                                <img src="./img/team_secret.png" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pastResults__cards--card">
+                        <div class="dateTime">
+                            <div class="dateTime--date">
+                                12/12/12
+                            </div>
+                            <div class="dateTime--time">
+                                12:12
+                            </div>
+                        </div>
+                        <div class="matchResult">
+                            <div class="matchResult__iconContainer">
+                                <img src="./img/team_liquid.png" alt="#">
+                            </div>
+                            <div class="matchResult--teamName">Team Liquid</div>
+                            <div class="matchResult__scoreTeam">0</div>
+                            <div class="matchResult--separator">:</div>
+                            <div class="matchResult__scoreTeam">0</div>
+                            <div class="matchResult--teamName">Team Secret</div>
+                            <div class="matchResult__iconContainer">
+                                <img src="./img/team_secret.png" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pastResults__cards--card">
+                        <div class="dateTime">
+                            <div class="dateTime--date">
+                                12/12/12
+                            </div>
+                            <div class="dateTime--time">
+                                12:12
+                            </div>
+                        </div>
+                        <div class="matchResult">
+                            <div class="matchResult__iconContainer">
+                                <img src="./img/team_liquid.png" alt="#">
+                            </div>
+                            <div class="matchResult--teamName">Team Liquid</div>
+                            <div class="matchResult__scoreTeam">0</div>
+                            <div class="matchResult--separator">:</div>
+                            <div class="matchResult__scoreTeam">0</div>
+                            <div class="matchResult--teamName">Team Secret</div>
+                            <div class="matchResult__iconContainer">
+                                <img src="./img/team_secret.png" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="liveResultsContainer">
+            <div class="liveResults">
+                <h3 class="liveResults--title">PARTIDAS ACTIVAS</h3>
+                <div class="liveResults__cards">
+                    <div class="liveResults__cards--card">
+                        <div class="topInfo">
+                            <p class="stage">Fase de Grupos</p>
+                            <p class="bo">BO3</p>
+                            <p class="dateTime">12/12/12 12:12</p>
+                        </div>
+                        <div class="midInfo">
+                            <div class="midInfo__teamData">
+                                <div class="midInfo__teamData__iconContainer">
+                                    <img src="./img/team_liquid.png" alt="#">
+                                </div>
+                                <div class="midInfo__teamData--teamName">Team Liquid</div>
+                                <div class="midInfo__teamData--teamScore">0</div>
+                            </div>
+                            <div class="midInfo--separator">:</div>
+                            <div class="midInfo__teamData">
+                                <div class="midInfo__teamData--teamScore">0</div>
+                                <div class="midInfo__teamData--teamName">Team Secret</div>
+                                <div class="midInfo__teamData__iconContainer">
+                                    <img src="./img/team_secret.png" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottomInfo">
+                            <button>PREDECIR!</button>
+                        </div>
+                    </div>
+                    <div class="liveResults__cards--card">
+                        <div class="topInfo">
+                            <p class="stage">Fase de Grupos</p>
+                            <p class="bo">BO3</p>
+                            <p class="dateTime">12/12/12 12:12</p>
+                        </div>
+                        <div class="midInfo">
+                            <div class="midInfo__teamData">
+                                <div class="midInfo__teamData__iconContainer">
+                                    <img src="./img/team_liquid.png" alt="#">
+                                </div>
+                                <div class="midInfo__teamData--teamName">Team Liquid</div>
+                                <div class="midInfo__teamData--teamScore">0</div>
+                            </div>
+                            <div class="midInfo--separator">:</div>
+                            <div class="midInfo__teamData">
+                                <div class="midInfo__teamData--teamScore">0</div>
+                                <div class="midInfo__teamData--teamName">Team Secret</div>
+                                <div class="midInfo__teamData__iconContainer">
+                                    <img src="./img/team_secret.png" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottomInfo">
+                            <button>PREDECIR!</button>
+                        </div>
+                    </div>
+                    <div class="liveResults__cards--card">
+                        <div class="topInfo">
+                            <p class="stage">Fase de Grupos</p>
+                            <p class="bo">BO3</p>
+                            <p class="dateTime">12/12/12 12:12</p>
+                        </div>
+                        <div class="midInfo">
+                            <div class="midInfo__teamData">
+                                <div class="midInfo__teamData__iconContainer">
+                                    <img src="./img/team_liquid.png" alt="#">
+                                </div>
+                                <div class="midInfo__teamData--teamName">Team Liquid</div>
+                                <div class="midInfo__teamData--teamScore">0</div>
+                            </div>
+                            <div class="midInfo--separator">:</div>
+                            <div class="midInfo__teamData">
+                                <div class="midInfo__teamData--teamScore">0</div>
+                                <div class="midInfo__teamData--teamName">Team Secret</div>
+                                <div class="midInfo__teamData__iconContainer">
+                                    <img src="./img/team_secret.png" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottomInfo">
+                            <button>PREDECIR!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatContainer">
+            <div class="chat">
+                <a href="javascript:void(0);" class="chat__topBar">
+                    <div class="chat__topBar--title">Chat</div>
+                    <div class="chat__topBar--options">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </a>
+                <div class="chat__history">
+                    <div class="chat__history__container received">
+                        <div class="chat__history__container--user">
+                            Usuario
+                        </div>
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                    <div class="chat__history__container sent">
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                    <div class="chat__history__container received">
+                        <div class="chat__history__container--user">
+                            Usuario
+                        </div>
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                    <div class="chat__history__container sent">
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                    <div class="chat__history__container received">
+                        <div class="chat__history__container--user">
+                            Usuario
+                        </div>
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                    <div class="chat__history__container sent">
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                    <div class="chat__history__container received">
+                        <div class="chat__history__container--user">
+                            Usuario
+                        </div>
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                    <div class="chat__history__container sent">
+                        <div class="chat__history__container--message">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur dicta officia
+                            harum ducimus.
+                        </div>
+                        <div class="chat__history__container--date">
+                            20/20/2020 20:20
+                        </div>
+                    </div>
+                </div>
+                <form action="#" class="chat__newMessage">
+                    <input type="text" class="chat__newMessage--text">
+                    <button><i class="fa-regular fa-face-smile"></i></button>
+                    <button><i class="fa-regular fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+</main>
+<script src="./js/functional.js"></script>

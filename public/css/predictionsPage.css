@@ -15,19 +15,16 @@ html {
   font-size: 10px;
   font-family: OverpassRegular;
 }
-
 @media only screen and (max-width: 75em) {
   html {
     font-size: 9px;
   }
 }
-
 @media only screen and (max-width: 54em) {
   html {
     font-size: 8px;
   }
 }
-
 @media only screen and (max-width: 42em) {
   html {
     font-size: 10px;
@@ -55,12 +52,12 @@ body {
 
 @font-face {
   font-family: OverpassBold;
-  src: url("../public/fonts/Overpass-Bold.ttf");
+  src: url("../fonts/Overpass-Bold.ttf");
 }
 
 @font-face {
   font-family: OverpassRegular;
-  src: url("../public/fonts/Overpass-Regular.ttf");
+  src: url("../fonts/Overpass-Regular.ttf");
 }
 
 header {
@@ -69,7 +66,6 @@ header {
   align-items: center;
   background-color: #F45050;
 }
-
 header .container {
   max-width: 1200px;
   width: 100%;
@@ -79,14 +75,12 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
-
 header .container .logoContainer {
   min-width: 100px;
   width: 15%;
   height: 100%;
   display: block;
 }
-
 header .container .logoContainer--link {
   width: 100%;
   height: 100%;
@@ -97,7 +91,6 @@ header .container .logoContainer--link {
   font-size: 1rem;
   font-weight: 900;
 }
-
 header .container .menu {
   min-width: 100px;
   width: 30%;
@@ -105,7 +98,6 @@ header .container .menu {
   justify-content: space-around;
   align-items: center;
 }
-
 header .container .menu__item--link {
   width: 150px;
   text-align: center;
@@ -116,20 +108,17 @@ header .container .menu__item--link {
   color: #fff;
   transition: color 0.2s, background 0.2s;
 }
-
 header .container .menu__item--link:hover {
   color: #3C486B;
   background-color: #fff;
   text-decoration: underline;
 }
-
 header .container .userOptions {
   min-width: 150px;
   width: 17%;
   height: 100%;
   position: relative;
 }
-
 header .container .userOptions__visible {
   width: 100%;
   height: 100%;
@@ -137,21 +126,18 @@ header .container .userOptions__visible {
   justify-content: space-evenly;
   align-items: center;
 }
-
 header .container .userOptions__visible__buttons {
   width: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header .container .userOptions__visible__buttons a {
   font-size: 1.8rem;
   position: relative;
   color: #fff;
   padding: 0.3rem;
 }
-
 header .container .userOptions__visible__buttons sup {
   background-color: #636161;
   color: #59CE8F;
@@ -167,37 +153,31 @@ header .container .userOptions__visible__buttons sup {
   border-radius: 0.5rem;
   border: 0.02rem solid #3C486B;
 }
-
 header .container .userOptions__visible__userData {
   width: 70%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
 header .container .userOptions__visible__userData--wallet {
   font-size: 1.2rem;
   font-weight: 600;
   color: #fff;
 }
-
 header .container .userOptions__visible__userData--wallet .quantity {
   font-size: 1.3rem;
   color: #F9D949;
   font-weight: 700;
 }
-
 header .container .userOptions__visible__userData__options {
   border-radius: 2rem;
   border: 2px solid #fff;
 }
-
 header .container .userOptions__visible__userData__options--icon {
   font-size: 2rem;
   padding: 1rem;
   color: #fff;
 }
-
 header .container .userOptions__invisible {
   position: absolute;
   right: 0;
@@ -210,7 +190,6 @@ header .container .userOptions__invisible {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4666666667);
   z-index: 5;
 }
-
 header .container .userOptions__invisible__actions {
   text-align: center;
   display: flex;
@@ -219,12 +198,10 @@ header .container .userOptions__invisible__actions {
   align-items: center;
   width: 100%;
 }
-
 header .container .userOptions__invisible__actions__item {
   font-size: 1.2rem;
   width: 100%;
 }
-
 header .container .userOptions__invisible__actions__item--link {
   display: block;
   color: #fff;
@@ -233,7 +210,6 @@ header .container .userOptions__invisible__actions__item--link {
   padding: 0.8rem 0;
   font-weight: 600;
 }
-
 header .container .userOptions__invisible__actions__item--link:hover {
   background-color: #fff;
   color: #3C486B;
@@ -245,7 +221,6 @@ main {
   align-items: center;
   height: calc(100vh - 60px);
 }
-
 main .container {
   position: relative;
   max-width: 1200px;
@@ -257,12 +232,10 @@ main .container {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-
 main .container .videoPlayerContainer {
   grid-area: 1/1/2/6;
   padding: 0.2rem;
 }
-
 main .container .videoPlayerContainer .videoPlayer {
   background-color: black;
   width: 100%;
@@ -273,12 +246,10 @@ main .container .videoPlayerContainer .videoPlayer {
   color: white;
   font-size: 6rem;
 }
-
 main .container .tournamentContainer {
   grid-area: 2/1/3/3;
   padding: 0.2rem;
 }
-
 main .container .tournamentContainer .tournament {
   border: 1px solid #3C486B;
   display: flex;
@@ -290,7 +261,6 @@ main .container .tournamentContainer .tournament {
   height: 100%;
   background-color: #3C486B;
 }
-
 main .container .tournamentContainer .tournament__info {
   width: 90%;
   display: flex;
@@ -299,7 +269,6 @@ main .container .tournamentContainer .tournament__info {
   align-items: center;
   gap: 1rem;
 }
-
 main .container .tournamentContainer .tournament__info--title {
   font-size: 2.4rem;
   color: #fff;
@@ -309,14 +278,12 @@ main .container .tournamentContainer .tournament__info--title {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4666666667);
   transform: rotate(1deg);
 }
-
 main .container .tournamentContainer .tournament__info--description {
   font-size: 1.4rem;
   text-align: center;
   font-weight: 100;
   color: #fff;
 }
-
 main .container .tournamentContainer .tournament__prediction {
   width: 90%;
   display: flex;
@@ -325,7 +292,6 @@ main .container .tournamentContainer .tournament__prediction {
   align-items: center;
   gap: 1rem;
 }
-
 main .container .tournamentContainer .tournament__prediction label {
   display: flex;
   flex-direction: column;
@@ -336,7 +302,6 @@ main .container .tournamentContainer .tournament__prediction label {
   gap: 0.5rem;
   color: gold;
 }
-
 main .container .tournamentContainer .tournament__prediction label select {
   padding: 1rem 0.5rem;
   width: 94%;
@@ -350,7 +315,6 @@ main .container .tournamentContainer .tournament__prediction label select {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4666666667);
   transform: rotate(-2deg);
 }
-
 main .container .tournamentContainer .tournament__prediction input {
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
@@ -363,12 +327,10 @@ main .container .tournamentContainer .tournament__prediction input {
   transform: rotate(2deg);
   cursor: pointer;
 }
-
 main .container .pastResultsContainer {
   grid-area: 2/3/3/6;
   padding: 0.2rem;
 }
-
 main .container .pastResultsContainer .pastResults {
   height: 100%;
   width: 100%;
@@ -378,7 +340,6 @@ main .container .pastResultsContainer .pastResults {
   justify-content: flex-start;
   align-items: center;
 }
-
 main .container .pastResultsContainer .pastResults--title {
   background-color: #F45050;
   color: #fff;
@@ -390,7 +351,6 @@ main .container .pastResultsContainer .pastResults--title {
   justify-content: center;
   align-items: center;
 }
-
 main .container .pastResultsContainer .pastResults__cards {
   width: 100%;
   height: calc(100% - 2rem);
@@ -401,7 +361,6 @@ main .container .pastResultsContainer .pastResults__cards {
   padding: 0.5rem;
   position: relative;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card {
   border: 1px solid #F45050;
   width: 100%;
@@ -410,7 +369,6 @@ main .container .pastResultsContainer .pastResults__cards--card {
   align-items: center;
   padding: 1rem;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card .dateTime {
   width: 20%;
   font-size: 1.1rem;
@@ -423,47 +381,39 @@ main .container .pastResultsContainer .pastResults__cards--card .dateTime {
   text-align: center;
   gap: 0.5rem;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card .matchResult {
   width: 76%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card .matchResult__iconContainer {
   width: 3rem;
   height: 3rem;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card .matchResult__iconContainer img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card .matchResult--teamName {
   text-transform: uppercase;
   font-size: 1.1rem;
   font-family: "OverpassBold", sans-serif;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card .matchResult__scoreTeam {
   font-size: 1.5rem;
   color: #F45050;
   font-weight: 600;
 }
-
 main .container .pastResultsContainer .pastResults__cards--card .matchResult--separator {
   font-weight: 900;
   font-size: 1.2rem;
 }
-
 main .container .liveResultsContainer {
   grid-area: 1/6/3/10;
   padding: 0.2rem;
 }
-
 main .container .liveResultsContainer .liveResults {
   display: flex;
   flex-direction: column;
@@ -473,7 +423,6 @@ main .container .liveResultsContainer .liveResults {
   height: 100%;
   border: 1px solid #59CE8F;
 }
-
 main .container .liveResultsContainer .liveResults--title {
   background-color: #59CE8F;
   color: #fff;
@@ -485,7 +434,6 @@ main .container .liveResultsContainer .liveResults--title {
   justify-content: center;
   align-items: center;
 }
-
 main .container .liveResultsContainer .liveResults__cards {
   width: 100%;
   height: calc(100% - 2rem);
@@ -497,7 +445,6 @@ main .container .liveResultsContainer .liveResults__cards {
   gap: 0.5rem;
   padding: 0.5rem;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card {
   width: 100%;
   display: flex;
@@ -508,7 +455,6 @@ main .container .liveResultsContainer .liveResults__cards--card {
   gap: 0.5rem;
   border: 1px solid #59CE8F;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .topInfo {
   width: 100%;
   display: flex;
@@ -517,13 +463,11 @@ main .container .liveResultsContainer .liveResults__cards--card .topInfo {
   padding: 0 0.5rem;
   border-bottom: 1px solid rgba(99, 97, 97, 0.2);
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .topInfo .stage {
   width: 25%;
   text-align: left;
   color: #636161;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .topInfo .bo {
   width: 25%;
   text-align: center;
@@ -531,13 +475,11 @@ main .container .liveResultsContainer .liveResults__cards--card .topInfo .bo {
   font-size: 1.2rem;
   color: #F45050;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .topInfo .dateTime {
   width: 25%;
   text-align: right;
   color: #636161;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .midInfo {
   width: 100%;
   display: flex;
@@ -545,14 +487,12 @@ main .container .liveResultsContainer .liveResults__cards--card .midInfo {
   align-items: center;
   padding: 0 0.5rem;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .midInfo__teamData {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 48%;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .midInfo__teamData__iconContainer {
   width: 20%;
   height: 4rem;
@@ -560,25 +500,21 @@ main .container .liveResultsContainer .liveResults__cards--card .midInfo__teamDa
   justify-content: center;
   align-items: center;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .midInfo__teamData__iconContainer img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .midInfo__teamData--teamName {
   width: 60%;
   text-align: center;
   font-size: 1.6rem;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .midInfo__teamData--teamScore {
   width: 10%;
   text-align: center;
   font-size: 2rem;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .midInfo--separator {
   display: flex;
   justify-content: center;
@@ -588,14 +524,12 @@ main .container .liveResultsContainer .liveResults__cards--card .midInfo--separa
   font-weight: 900;
   font-size: 1.2rem;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .bottomInfo {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 main .container .liveResultsContainer .liveResults__cards--card .bottomInfo button {
   width: 100%;
   height: 100%;
@@ -607,7 +541,6 @@ main .container .liveResultsContainer .liveResults__cards--card .bottomInfo butt
   padding: 0.4rem;
   cursor: pointer;
 }
-
 main .container .chatContainer {
   position: absolute;
   right: 2.5rem;
@@ -620,7 +553,6 @@ main .container .chatContainer {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4666666667);
   transition: height 0.4s;
 }
-
 main .container .chatContainer .chat {
   display: flex;
   flex-direction: column;
@@ -629,7 +561,6 @@ main .container .chatContainer .chat {
   height: 100%;
   width: 100%;
 }
-
 main .container .chatContainer .chat__topBar {
   display: flex;
   justify-content: space-between;
@@ -645,7 +576,6 @@ main .container .chatContainer .chat__topBar {
   padding: 0 0.5rem;
   height: 2rem;
 }
-
 main .container .chatContainer .chat__history {
   height: 88%;
   display: flex;
@@ -654,7 +584,6 @@ main .container .chatContainer .chat__history {
   padding: 0.5rem;
   overflow-y: scroll;
 }
-
 main .container .chatContainer .chat__history__container {
   display: flex;
   flex-direction: column;
@@ -665,14 +594,12 @@ main .container .chatContainer .chat__history__container {
   padding: 0.2rem 0.4rem;
   border-radius: 0.5rem;
 }
-
 main .container .chatContainer .chat__history__container--user {
   font-size: 0.9rem;
   font-weight: 300;
   color: #fff;
   align-self: flex-start;
 }
-
 main .container .chatContainer .chat__history__container--message {
   font-size: 1.2rem;
   font-weight: 100;
@@ -681,23 +608,19 @@ main .container .chatContainer .chat__history__container--message {
   border-radius: 0.5rem;
   padding: 0.2rem 0.4rem;
 }
-
 main .container .chatContainer .chat__history__container--date {
   font-size: 0.8rem;
   align-self: flex-end;
   color: #fff;
 }
-
 main .container .chatContainer .chat__history .received {
   background-color: #3C486B;
   align-self: flex-start;
 }
-
 main .container .chatContainer .chat__history .sent {
   background-color: #59CE8F;
   align-self: flex-end;
 }
-
 main .container .chatContainer .chat__newMessage {
   height: 5%;
   width: 90%;
@@ -709,7 +632,6 @@ main .container .chatContainer .chat__newMessage {
   border-radius: 0.5rem;
   padding: 0.2rem;
 }
-
 main .container .chatContainer .chat__newMessage--text {
   width: 85%;
   height: 100%;
@@ -720,7 +642,6 @@ main .container .chatContainer .chat__newMessage--text {
   background-color: transparent;
   color: #000000;
 }
-
 main .container .chatContainer .chat__newMessage button {
   width: 1.8rem;
   height: 1.8rem;
@@ -731,5 +652,3 @@ main .container .chatContainer .chat__newMessage button {
   border: none;
   color: #636161;
 }
-
-/*# sourceMappingURL=style.css.map */

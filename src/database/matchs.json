@@ -1,3736 +1,819 @@
 {
-  "Riyadh Masters": {
-    "playInMatchs": {
-      "updatedTime": 1689973459816,
+  "TI2023": {
+    "Clasificatorias SA": {
       "matchsData": {
-        "July 19-A": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-TeamLiquid-Entity",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Liquid",
-            "teamName2": "Entity",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689757200",
-            "date": "July 19, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Rubick",
-                    "Drow Ranger",
-                    "Elder Titan",
-                    "Underlord"
-                  ],
-                  "team1": [
-                    "Templar Assassin",
-                    "Skywrath Mage",
-                    "Beastmaster",
-                    "Invoker",
-                    "Undying"
-                  ]
+        "Upper Brackets": {
+          "Quarterfinals": [
+            {
+              "id": "TI2023-2-ThunderAwaken-Balrogs-1692712800",
+              "bo": 2,
+              "remainingTime": "finished",
+              "teamName1": "Thunder Awaken",
+              "teamName2": "Balrogs",
+              "scoreTeam1": "2",
+              "scoreTeam2": "0",
+              "matchWinner": "Thunder Awaken",
+              "status": "finished",
+              "timestamp": "1692712800",
+              "date": "August 22, 2023 - 09:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "7297822682",
+                  "picks": {
+                    "team0": [
+                      "Razor",
+                      "Invoker",
+                      "Io",
+                      "Treant Protector",
+                      "Drow Ranger"
+                    ],
+                    "team1": [
+                      "Centaur Warrunner",
+                      "Pangolier",
+                      "Mirana",
+                      "Undying",
+                      "Gyrocopter"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "31m00s"
                 },
-                "winner": "team2",
-                "duration": "33m03s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Io",
-                    "Leshrac",
-                    "Tusk",
-                    "Visage",
-                    "Dragon Knight"
-                  ],
-                  "team1": [
-                    "Winter Wyvern",
-                    "Faceless Void",
-                    "Primal Beast",
-                    "Silencer",
-                    "Invoker"
-                  ]
+                "game2": {
+                  "id": "7297933892",
+                  "picks": {
+                    "team0": [
+                      "Dark Seer",
+                      "Earth Spirit",
+                      "Grimstroke",
+                      "Medusa",
+                      "Ember Spirit"
+                    ],
+                    "team1": [
+                      "Batrider",
+                      "Legion Commander",
+                      "Skywrath Mage",
+                      "Vengeful Spirit",
+                      "Sven"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "33m26s"
+                }
+              }
+            },
+            {
+              "id": "TI2023-2-KeydStars-MadKings-1692720000",
+              "bo": 2,
+              "remainingTime": "finished",
+              "teamName1": "Keyd Stars",
+              "teamName2": "Mad Kings",
+              "scoreTeam1": "2",
+              "scoreTeam2": "0",
+              "matchWinner": "Keyd Stars",
+              "status": "finished",
+              "timestamp": "1692720000",
+              "date": "August 22, 2023 - 11:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "7298043428",
+                  "picks": {
+                    "team0": [
+                      "Keeper of the Light",
+                      "Tusk",
+                      "Treant Protector",
+                      "Troll Warlord",
+                      "Dawnbreaker"
+                    ],
+                    "team1": [
+                      "Puck",
+                      "Templar Assassin",
+                      "Dark Seer",
+                      "Monkey King",
+                      "Disruptor"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "38m31s"
                 },
-                "winner": "team1",
-                "duration": "37m31s"
+                "game2": {
+                  "id": "7298163342",
+                  "picks": {
+                    "team0": [
+                      "Ember Spirit",
+                      "Marci",
+                      "Gyrocopter",
+                      "Mirana",
+                      "Lycan"
+                    ],
+                    "team1": [
+                      "Snapfire",
+                      "Medusa",
+                      "Earthshaker",
+                      "Silencer",
+                      "Invoker"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "56m15s"
+                }
+              }
+            },
+            {
+              "id": "TI2023-2-AcatSuki-Infamous-1692729600",
+              "bo": 2,
+              "remainingTime": "finished",
+              "teamName1": "AcatSuki",
+              "teamName2": "Infamous",
+              "scoreTeam1": "2",
+              "scoreTeam2": "0",
+              "matchWinner": "AcatSuki",
+              "status": "finished",
+              "timestamp": "1692729600",
+              "date": "August 22, 2023 - 13:40 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "7298284680",
+                  "picks": {
+                    "team0": [
+                      "Nature's Prophet",
+                      "Undying",
+                      "Tidehunter",
+                      "Huskar",
+                      "Slark"
+                    ],
+                    "team1": [
+                      "Naga Siren",
+                      "Mirana",
+                      "Ember Spirit",
+                      "Shadow Shaman",
+                      "Dawnbreaker"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "20m25s"
+                },
+                "game2": {
+                  "id": "7298351549",
+                  "picks": {
+                    "team0": [
+                      "Nature's Prophet",
+                      "Tiny",
+                      "Venomancer",
+                      "Storm Spirit",
+                      "Terrorblade"
+                    ],
+                    "team1": [
+                      "Puck",
+                      "Snapfire",
+                      "Spirit Breaker",
+                      "Mirana",
+                      "Monkey King"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "22m28s"
+                }
+              }
+            },
+            {
+              "id": "TI2023-2-Infinity-UniversitarioEsports-1692735900",
+              "bo": 2,
+              "remainingTime": "finished",
+              "teamName1": "Infinity",
+              "teamName2": "Universitario Esports",
+              "scoreTeam1": "2",
+              "scoreTeam2": "0",
+              "matchWinner": "Infinity",
+              "status": "finished",
+              "timestamp": "1692735900",
+              "date": "August 22, 2023 - 15:25 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "7298423611",
+                  "picks": {
+                    "team0": [
+                      "Treant Protector",
+                      "Pangolier",
+                      "Skywrath Mage",
+                      "Brewmaster",
+                      "Morphling"
+                    ],
+                    "team1": [
+                      "Keeper of the Light",
+                      "Muerta",
+                      "Tusk",
+                      "Death Prophet",
+                      "Clockwerk"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "47m55s"
+                },
+                "game2": {
+                  "id": "7298503708",
+                  "picks": {
+                    "team0": [
+                      "Treant Protector",
+                      "Lion",
+                      "Leshrac",
+                      "Brewmaster",
+                      "Faceless Void"
+                    ],
+                    "team1": [
+                      "Razor",
+                      "Muerta",
+                      "Rubick",
+                      "Clockwerk",
+                      "Dark Seer"
+                    ]
+                  },
+                  "finishedPicks": true,
+                  "winner": "team1",
+                  "duration": "44m19s"
+                }
               }
             }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-TeamAster-Virtus.pro",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Aster",
-            "teamName2": "Virtus.pro",
-            "scoreTeam1": "2",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689757200",
-            "date": "July 19, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Clockwerk",
-                    "Mars",
-                    "Faceless Void",
-                    "Storm Spirit"
-                  ],
-                  "team1": [
-                    "Undying",
-                    "Lion",
-                    "Dark Seer",
-                    "Pangolier",
-                    "Io"
-                  ]
+          ],
+          "Semifinals": [
+            {
+              "id": "TI2023-3-ThunderAwaken-KeydStars-1692885600",
+              "bo": 3,
+              "remainingTime": "1d 14h 21m",
+              "teamName1": "Thunder Awaken",
+              "teamName2": "Keyd Stars",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692885600",
+              "date": "August 24, 2023 - 09:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team1",
-                "duration": "28m26s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Lion",
-                    "Medusa",
-                    "Keeper of the Light",
-                    "Ember Spirit",
-                    "Beastmaster"
-                  ],
-                  "team1": [
-                    "Alchemist",
-                    "Underlord",
-                    "Shadow Demon",
-                    "Timbersaw",
-                    "Rubick"
-                  ]
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team1",
-                "duration": "31m59s"
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
+              }
+            },
+            {
+              "id": "TI2023-3-AcatSuki-Infinity-1692896400",
+              "bo": 3,
+              "remainingTime": "1d 17h 21m",
+              "teamName1": "AcatSuki",
+              "teamName2": "Infinity",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692896400",
+              "date": "August 24, 2023 - 12:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
               }
             }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-Execration-TSM",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Execration",
-            "teamName2": "TSM",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689757200",
-            "date": "July 19, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Broodmother",
-                    "Batrider",
-                    "Ember Spirit",
-                    "Mirana",
-                    "Doom"
-                  ],
-                  "team1": [
-                    "Underlord",
-                    "Terrorblade",
-                    "Rubick",
-                    "Primal Beast",
-                    "Chen"
-                  ]
+          ],
+          "Final": [
+            {
+              "id": "TI2023-3-undefined-undefined-1692993600",
+              "bo": 3,
+              "remainingTime": "2d 20h 21m",
+              "teamName1": "No Definido",
+              "teamName2": "No Definido",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692993600",
+              "date": "August 25, 2023 - 15:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "32m43s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Enchantress",
-                    "Terrorblade",
-                    "Visage",
-                    "Snapfire",
-                    "Queen of Pain"
-                  ],
-                  "team1": [
-                    "Faceless Void",
-                    "Underlord",
-                    "Batrider",
-                    "Leshrac",
-                    "Io"
-                  ]
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "30m38s"
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
               }
             }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-Execration-TeamLiquid",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Execration",
-            "teamName2": "Team Liquid",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689768300",
-            "date": "July 19, 2023 - 07:05 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Broodmother",
-                    "Storm Spirit",
-                    "Snapfire",
-                    "Hoodwink",
-                    "Spectre"
-                  ],
-                  "team1": [
-                    "Lycan",
-                    "Skywrath Mage",
-                    "Dragon Knight",
-                    "Batrider",
-                    "Timbersaw"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "26m28s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Silencer",
-                    "Ember Spirit",
-                    "Rubick",
-                    "Underlord",
-                    "Sven"
-                  ],
-                  "team1": [
-                    "Razor",
-                    "Lion",
-                    "Lycan",
-                    "Leshrac",
-                    "Io"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "30m02s"
-              }
-            }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-Virtus.pro-Entity",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Virtus.pro",
-            "teamName2": "Entity",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689768300",
-            "date": "July 19, 2023 - 07:05 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Spirit Breaker",
-                    "Silencer",
-                    "Dark Seer",
-                    "Medusa"
-                  ],
-                  "team1": [
-                    "Legion Commander",
-                    "Morphling",
-                    "Clockwerk",
-                    "Invoker",
-                    "Batrider"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "41m31s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Chen",
-                    "Templar Assassin",
-                    "Beastmaster",
-                    "Skywrath Mage",
-                    "Ember Spirit"
-                  ],
-                  "team1": [
-                    "Venomancer",
-                    "Naga Siren",
-                    "Lion",
-                    "Lich",
-                    "Timbersaw"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "46m12s"
-              }
-            }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-TeamAster-TSM",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Aster",
-            "teamName2": "TSM",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689768300",
-            "date": "July 19, 2023 - 07:05 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Storm Spirit",
-                    "Keeper of the Light",
-                    "Lion",
-                    "Phantom Lancer",
-                    "Tidehunter"
-                  ],
-                  "team1": [
-                    "Broodmother",
-                    "Rubick",
-                    "Terrorblade",
-                    "Puck",
-                    "Undying"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "41m26s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Mars",
-                    "Faceless Void",
-                    "Pugna",
-                    "Queen of Pain"
-                  ],
-                  "team1": [
-                    "Dragon Knight",
-                    "Morphling",
-                    "Elder Titan",
-                    "Rubick",
-                    "Broodmother"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "35m12s"
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-Virtus.pro-TeamLiquid",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Virtus.pro",
-            "teamName2": "Team Liquid",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689777900",
-            "date": "July 19, 2023 - 09:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Clockwerk",
-                    "Batrider",
-                    "Mars",
-                    "Shadow Fiend"
-                  ],
-                  "team1": [
-                    "Faceless Void",
-                    "Disruptor",
-                    "Razor",
-                    "Leshrac",
-                    "Io"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "36m40s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Io",
-                    "Templar Assassin",
-                    "Tidehunter",
-                    "Lion",
-                    "Chaos Knight"
-                  ],
-                  "team1": [
-                    "Crystal Maiden",
-                    "Monkey King",
-                    "Lycan",
-                    "Rubick",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "50m37s"
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-Execration-TeamAster",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Execration",
-            "teamName2": "Team Aster",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689777900",
-            "date": "July 19, 2023 - 09:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Medusa",
-                    "Rubick",
-                    "Pangolier",
-                    "Axe"
-                  ],
-                  "team1": [
-                    "Ember Spirit",
-                    "Morphling",
-                    "Tidehunter",
-                    "Clockwerk",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "39m00s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Clockwerk",
-                    "Enigma",
-                    "Jakiro",
-                    "Slark",
-                    "Templar Assassin"
-                  ],
-                  "team1": [
-                    "Earthshaker",
-                    "Mars",
-                    "Rubick",
-                    "Medusa",
-                    "Lion"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "44m40s"
-              }
-            }
-          },
-          "8": {
-            "id": "Riyadh_Masters2023-2-Entity-TSM",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Entity",
-            "teamName2": "TSM",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689778200",
-            "date": "July 19, 2023 - 09:50 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Primal Beast",
-                    "Disruptor",
-                    "Terrorblade",
-                    "Tidehunter",
-                    "Death Prophet"
-                  ],
-                  "team1": [
-                    "Tinker",
-                    "Snapfire",
-                    "Dark Seer",
-                    "Lycan",
-                    "Chen"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "21m04s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Primal Beast",
-                    "Disruptor",
-                    "Lion",
-                    "Invoker",
-                    "Morphling"
-                  ],
-                  "team1": [
-                    "Visage",
-                    "Spirit Breaker",
-                    "Snapfire",
-                    "Terrorblade",
-                    "Chen"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "29m58s"
-              }
-            }
-          },
-          "9": {
-            "id": "Riyadh_Masters2023-2-TSM-TeamLiquid",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "TSM",
-            "teamName2": "Team Liquid",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689790800",
-            "date": "July 19, 2023 - 13:20 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Snapfire",
-                    "Lich",
-                    "Bloodseeker",
-                    "Visage"
-                  ],
-                  "team1": [
-                    "Monkey King",
-                    "Oracle",
-                    "Crystal Maiden",
-                    "Templar Assassin",
-                    "Timbersaw"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "41m12s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Morphling",
-                    "Primal Beast",
-                    "Enchantress",
-                    "Ogre Magi"
-                  ],
-                  "team1": [
-                    "Queen of Pain",
-                    "Clockwerk",
-                    "Lycan",
-                    "Dark Seer",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "46m29s"
-              }
-            }
-          },
-          "10": {
-            "id": "Riyadh_Masters2023-2-Entity-TeamAster",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Entity",
-            "teamName2": "Team Aster",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689790800",
-            "date": "July 19, 2023 - 13:20 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Batrider",
-                    "Undying",
-                    "Invoker",
-                    "Monkey King",
-                    "Legion Commander"
-                  ],
-                  "team1": [
-                    "Phoenix",
-                    "Faceless Void",
-                    "Snapfire",
-                    "Tidehunter",
-                    "Lion"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "26m49s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Visage",
-                    "Templar Assassin",
-                    "Spirit Breaker",
-                    "Windranger"
-                  ],
-                  "team1": [
-                    "Tidehunter",
-                    "Terrorblade",
-                    "Enigma",
-                    "Storm Spirit",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "36m13s"
-              }
-            }
-          },
-          "11": {
-            "id": "Riyadh_Masters2023-2-Execration-Virtus.pro",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Execration",
-            "teamName2": "Virtus.pro",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689791100",
-            "date": "July 19, 2023 - 13:25 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Clockwerk",
-                    "Naga Siren",
-                    "Undying",
-                    "Puck",
-                    "Razor"
-                  ],
-                  "team1": [
-                    "Meepo",
-                    "Ember Spirit",
-                    "Legion Commander",
-                    "Snapfire",
-                    "Enigma"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "42m34s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Enigma",
-                    "Clockwerk",
-                    "Snapfire",
-                    "Faceless Void",
-                    "Meepo"
-                  ],
-                  "team1": [
-                    "Broodmother",
-                    "Ember Spirit",
-                    "Keeper of the Light",
-                    "Terrorblade",
-                    "Undying"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "24m05s"
-              }
-            }
-          }
+          ]
         },
-        "July 19-B": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-OG-QuestEsports",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "OG",
-            "teamName2": "Quest Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689757200",
-            "date": "July 19, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Faceless Void",
-                    "Lion",
-                    "Invoker",
-                    "Ogre Magi"
-                  ],
-                  "team1": [
-                    "Tiny",
-                    "Templar Assassin",
-                    "Shadow Demon",
-                    "Dark Seer",
-                    "Rubick"
-                  ]
+        "Lower Brackets": {
+          "Round 2": [
+            {
+              "id": "TI2023-3-Balrogs-Lava-1692799200",
+              "bo": 3,
+              "remainingTime": "14h 21m 25s",
+              "teamName1": "Balrogs",
+              "teamName2": "Lava",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692799200",
+              "date": "August 23, 2023 - 09:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "27m10s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Morphling",
-                    "Primal Beast",
-                    "Enchantress",
-                    "Tidehunter"
-                  ],
-                  "team1": [
-                    "Storm Spirit",
-                    "Naga Siren",
-                    "Phoenix",
-                    "Rubick",
-                    "Dark Seer"
-                  ]
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "36m42s"
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
+              }
+            },
+            {
+              "id": "TI2023-3-Infamous-Qhali-1692810000",
+              "bo": 3,
+              "remainingTime": "17h 21m 25s",
+              "teamName1": "Infamous",
+              "teamName2": "Qhali",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692810000",
+              "date": "August 23, 2023 - 12:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
+              }
+            },
+            {
+              "id": "TI2023-3-UniversitarioEsports-NoPingEsports-1692820800",
+              "bo": 3,
+              "remainingTime": "20h 21m 25s",
+              "teamName1": "Universitario Esports",
+              "teamName2": "NoPing Esports",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692820800",
+              "date": "August 23, 2023 - 15:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
               }
             }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-beastcoast-TeamSecret",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "beastcoast",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689757200",
-            "date": "July 19, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Silencer",
-                    "Mars",
-                    "Tiny",
-                    "Templar Assassin",
-                    "Timbersaw"
-                  ],
-                  "team1": [
-                    "Death Prophet",
-                    "Phantom Lancer",
-                    "Crystal Maiden",
-                    "Primal Beast",
-                    "Enchantress"
-                  ]
+          ],
+          "Round 3": [
+            {
+              "id": "TI2023-3-MadKings-undefined-1692907200",
+              "bo": 3,
+              "remainingTime": "1d 20h 21m",
+              "teamName1": "Mad Kings",
+              "teamName2": "No Definido",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692907200",
+              "date": "August 24, 2023 - 15:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "40m42s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Clinkz",
-                    "Timbersaw",
-                    "Phoenix",
-                    "Sven",
-                    "Axe"
-                  ],
-                  "team1": [
-                    "Tidehunter",
-                    "Bloodseeker",
-                    "Snapfire",
-                    "Monkey King",
-                    "Chen"
-                  ]
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "39m42s"
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
+              }
+            },
+            {
+              "id": "TI2023-3-undefined-undefined-1692918000",
+              "bo": 3,
+              "remainingTime": "1d 23h 21m",
+              "teamName1": "No Definido",
+              "teamName2": "No Definido",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692918000",
+              "date": "August 24, 2023 - 18:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
               }
             }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-XtremeGaming-9Pandas",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Xtreme Gaming",
-            "teamName2": "9Pandas",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689757200",
-            "date": "July 19, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Batrider",
-                    "Bloodseeker",
-                    "Ember Spirit",
-                    "Dark Willow",
-                    "Magnus"
-                  ],
-                  "team1": [
-                    "Doom",
-                    "Oracle",
-                    "Spirit Breaker",
-                    "Enigma",
-                    "Broodmother"
-                  ]
+          ],
+          "Quarterfinals": [
+            {
+              "id": "TI2023-3-undefined-undefined-1692972000",
+              "bo": 3,
+              "remainingTime": "2d 14h 21m",
+              "teamName1": "No Definido",
+              "teamName2": "No Definido",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692972000",
+              "date": "August 25, 2023 - 09:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "24m51s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Storm Spirit",
-                    "Shadow Demon",
-                    "Bloodseeker",
-                    "Mars"
-                  ],
-                  "team1": [
-                    "Alchemist",
-                    "Lion",
-                    "Lycan",
-                    "Windranger",
-                    "Undying"
-                  ]
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "34m47s"
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
+              }
+            },
+            {
+              "id": "TI2023-3-undefined-undefined-1692982800",
+              "bo": 3,
+              "remainingTime": "2d 17h 21m",
+              "teamName1": "No Definido",
+              "teamName2": "No Definido",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1692982800",
+              "date": "August 25, 2023 - 12:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                },
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
               }
             }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-beastcoast-OG",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "beastcoast",
-            "teamName2": "OG",
-            "scoreTeam1": "2",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689766800",
-            "date": "July 19, 2023 - 06:40 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Venomancer",
-                    "Batrider",
-                    "Dark Seer",
-                    "Terrorblade",
-                    "Earth Spirit"
-                  ],
-                  "team1": [
-                    "Brewmaster",
-                    "Faceless Void",
-                    "Rubick",
-                    "Io",
-                    "Leshrac"
-                  ]
+          ],
+          "Semifinal": [
+            {
+              "id": "TI2023-3-undefined-undefined-1693065600",
+              "bo": 3,
+              "remainingTime": "3d 16h 21m",
+              "teamName1": "No Definido",
+              "teamName2": "No Definido",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1693065600",
+              "date": "August 26, 2023 - 11:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team1",
-                "duration": "34m07s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Dark Seer",
-                    "Alchemist",
-                    "Tiny",
-                    "Gyrocopter"
-                  ],
-                  "team1": [
-                    "Lone Druid",
-                    "Dark Willow",
-                    "Elder Titan",
-                    "Storm Spirit",
-                    "Enigma"
-                  ]
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team1",
-                "duration": "46m22s"
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
               }
             }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-9Pandas-QuestEsports",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "9Pandas",
-            "teamName2": "Quest Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689766800",
-            "date": "July 19, 2023 - 06:40 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Timbersaw",
-                    "Skywrath Mage",
-                    "Storm Spirit",
-                    "Silencer",
-                    "Alchemist"
-                  ],
-                  "team1": [
-                    "Terrorblade",
-                    "Tiny",
-                    "Shadow Demon",
-                    "Dark Seer",
-                    "Rubick"
-                  ]
+          ],
+          "Final": [
+            {
+              "id": "TI2023-3-undefined-undefined-1693076400",
+              "bo": 3,
+              "remainingTime": "3d 19h 21m",
+              "teamName1": "No Definido",
+              "teamName2": "No Definido",
+              "scoreTeam1": "0",
+              "scoreTeam2": "0",
+              "matchWinner": "pending",
+              "status": "pending",
+              "timestamp": "1693076400",
+              "date": "August 26, 2023 - 14:00 UTC-5",
+              "games": {
+                "game1": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "44m29s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Dark Seer",
-                    "Chen",
-                    "Spirit Breaker",
-                    "Templar Assassin",
-                    "Dragon Knight"
-                  ],
-                  "team1": [
-                    "Phantom Lancer",
-                    "Mars",
-                    "Oracle",
-                    "Pangolier",
-                    "Rubick"
-                  ]
+                "game2": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
                 },
-                "winner": "team2",
-                "duration": "33m39s"
+                "game3": {
+                  "id": "",
+                  "picks": {
+                    "team0": [],
+                    "team1": []
+                  },
+                  "finishedPicks": false,
+                  "winner": "",
+                  "duration": ""
+                }
               }
             }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-XtremeGaming-TeamSecret",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Xtreme Gaming",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689766800",
-            "date": "July 19, 2023 - 06:40 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Rubick",
-                    "Elder Titan",
-                    "Drow Ranger",
-                    "Ember Spirit"
-                  ],
-                  "team1": [
-                    "Huskar",
-                    "Windranger",
-                    "Mars",
-                    "Tusk",
-                    "Enigma"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "42m03s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Rubick",
-                    "Pangolier",
-                    "Templar Assassin",
-                    "Lycan"
-                  ],
-                  "team1": [
-                    "Terrorblade",
-                    "Ember Spirit",
-                    "Visage",
-                    "Monkey King",
-                    "Enigma"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "56m47s"
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-QuestEsports-TeamSecret",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Quest Esports",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "2",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689777900",
-            "date": "July 19, 2023 - 09:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Shadow Demon",
-                    "Primal Beast",
-                    "Mirana",
-                    "Faceless Void",
-                    "Pangolier"
-                  ],
-                  "team1": [
-                    "Tidehunter",
-                    "Slark",
-                    "Enchantress",
-                    "Clockwerk",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "36m36s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Timbersaw",
-                    "Naga Siren",
-                    "Phoenix",
-                    "Tusk"
-                  ],
-                  "team1": [
-                    "Meepo",
-                    "Juggernaut",
-                    "Crystal Maiden",
-                    "Primal Beast",
-                    "Chen"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "26m37s"
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-9Pandas-OG",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "9Pandas",
-            "teamName2": "OG",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689777900",
-            "date": "July 19, 2023 - 09:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Beastmaster",
-                    "Oracle",
-                    "Juggernaut",
-                    "Leshrac"
-                  ],
-                  "team1": [
-                    "Void Spirit",
-                    "Templar Assassin",
-                    "Clockwerk",
-                    "Enigma",
-                    "Dark Seer"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "24m07s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Storm Spirit",
-                    "Skywrath Mage",
-                    "Oracle",
-                    "Juggernaut",
-                    "Beastmaster"
-                  ],
-                  "team1": [
-                    "Spectre",
-                    "Doom",
-                    "Dark Willow",
-                    "Templar Assassin",
-                    "Dark Seer"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "37m29s"
-              }
-            }
-          },
-          "8": {
-            "id": "Riyadh_Masters2023-2-beastcoast-XtremeGaming",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "beastcoast",
-            "teamName2": "Xtreme Gaming",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689777900",
-            "date": "July 19, 2023 - 09:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Clockwerk",
-                    "Venomancer",
-                    "Timbersaw",
-                    "Chaos Knight",
-                    "Kunkka"
-                  ],
-                  "team1": [
-                    "Windranger",
-                    "Skywrath Mage",
-                    "Legion Commander",
-                    "Drow Ranger",
-                    "Elder Titan"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "44m58s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Batrider",
-                    "Clockwerk",
-                    "Dark Seer",
-                    "Disruptor",
-                    "Terrorblade"
-                  ],
-                  "team1": [
-                    "Mars",
-                    "Bloodseeker",
-                    "Venomancer",
-                    "Silencer",
-                    "Storm Spirit"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "36m08s"
-              }
-            }
-          },
-          "9": {
-            "id": "Riyadh_Masters2023-2-9Pandas-beastcoast",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "9Pandas",
-            "teamName2": "beastcoast",
-            "scoreTeam1": "2",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689790800",
-            "date": "July 19, 2023 - 13:20 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Enigma",
-                    "Beastmaster",
-                    "Meepo",
-                    "Alchemist"
-                  ],
-                  "team1": [
-                    "Primal Beast",
-                    "Phoenix",
-                    "Storm Spirit",
-                    "Naga Siren",
-                    "Tiny"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "30m19s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Enigma",
-                    "Lycan",
-                    "Alchemist",
-                    "Snapfire"
-                  ],
-                  "team1": [
-                    "Tidehunter",
-                    "Storm Spirit",
-                    "Silencer",
-                    "Tiny",
-                    "Shadow Fiend"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "24m31s"
-              }
-            }
-          },
-          "10": {
-            "id": "Riyadh_Masters2023-2-TeamSecret-OG",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Secret",
-            "teamName2": "OG",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689790500",
-            "date": "July 19, 2023 - 13:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Mars",
-                    "Chen",
-                    "Sven",
-                    "Leshrac"
-                  ],
-                  "team1": [
-                    "Ember Spirit",
-                    "Crystal Maiden",
-                    "Naga Siren",
-                    "Dark Seer",
-                    "Enigma"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "32m31s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Timbersaw",
-                    "Monkey King",
-                    "Bloodseeker",
-                    "Visage"
-                  ],
-                  "team1": [
-                    "Snapfire",
-                    "Clockwerk",
-                    "Venomancer",
-                    "Templar Assassin",
-                    "Enigma"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "45m09s"
-              }
-            }
-          },
-          "11": {
-            "id": "Riyadh_Masters2023-2-QuestEsports-XtremeGaming",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Quest Esports",
-            "teamName2": "Xtreme Gaming",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689789300",
-            "date": "July 19, 2023 - 12:55 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Broodmother",
-                    "Pangolier",
-                    "Silencer",
-                    "Templar Assassin"
-                  ],
-                  "team1": [
-                    "Pudge",
-                    "Bloodseeker",
-                    "Snapfire",
-                    "Ember Spirit",
-                    "Elder Titan"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "37m32s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Timbersaw",
-                    "Pangolier",
-                    "Bane",
-                    "Ursa"
-                  ],
-                  "team1": [
-                    "Meepo",
-                    "Clockwerk",
-                    "Queen of Pain",
-                    "Medusa",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "38m53s"
-              }
-            }
-          }
+          ]
         },
-        "July 20-A": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-TeamLiquid-TeamAster",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Liquid",
-            "teamName2": "Team Aster",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689843600",
-            "date": "July 20, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Timbersaw",
-                    "Keeper of the Light",
-                    "Ember Spirit",
-                    "Muerta"
-                  ],
-                  "team1": [
-                    "Dark Seer",
-                    "Batrider",
-                    "Slark",
-                    "Leshrac",
-                    "Io"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "36m41s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Enigma",
-                    "Pudge",
-                    "Techies",
-                    "Meepo",
-                    "Mars"
-                  ],
-                  "team1": [
-                    "Outworld Destroyer",
-                    "Bloodseeker",
-                    "Clockwerk",
-                    "Broodmother",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "34m31s"
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-TSM-Virtus.pro",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "TSM",
-            "teamName2": "Virtus.pro",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689843600",
-            "date": "July 20, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Broodmother",
-                    "Chen",
-                    "Terrorblade",
-                    "Rubick",
-                    "Dragon Knight"
-                  ],
-                  "team1": [
-                    "Troll Warlord",
-                    "Primal Beast",
-                    "Batrider",
-                    "Ember Spirit",
-                    "Keeper of the Light"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "30m35s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Io",
-                    "Leshrac",
-                    "Batrider",
-                    "Lycan",
-                    "Luna"
-                  ],
-                  "team1": [
-                    "Lich",
-                    "Faceless Void",
-                    "Rubick",
-                    "Templar Assassin",
-                    "Timbersaw"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "30m07s"
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-Execration-Entity",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Execration",
-            "teamName2": "Entity",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689843600",
-            "date": "July 20, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Ember Spirit",
-                    "Keeper of the Light",
-                    "Beastmaster",
-                    "Razor"
-                  ],
-                  "team1": [
-                    "Batrider",
-                    "Slark",
-                    "Snapfire",
-                    "Primal Beast",
-                    "Chen"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "27m17s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Clockwerk",
-                    "Beastmaster",
-                    "Pugna",
-                    "Storm Spirit",
-                    "Muerta"
-                  ],
-                  "team1": [
-                    "Mars",
-                    "Ember Spirit",
-                    "Shadow Fiend",
-                    "Batrider",
-                    "Disruptor"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "44m22s"
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-1-Bob-squad1x",
-            "bo": 1,
-            "remainingTime": "finished",
-            "teamName1": "Bob",
-            "teamName2": "squad1x",
-            "scoreTeam1": "1",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689861600",
-            "date": "July 20, 2023 - 09:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Shadow Fiend"
-                  ],
-                  "team1": [
-                    "Shadow Fiend"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "7m23s"
-              }
-            }
-          }
-        },
-        "July 20-B": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-beastcoast-QuestEsports",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "beastcoast",
-            "teamName2": "Quest Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689853500",
-            "date": "July 20, 2023 - 06:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Silencer",
-                    "Ember Spirit",
-                    "Keeper of the Light",
-                    "Legion Commander",
-                    "Sven"
-                  ],
-                  "team1": [
-                    "Ogre Magi",
-                    "Undying",
-                    "Terrorblade",
-                    "Tiny",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "32m07s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Chen",
-                    "Clockwerk",
-                    "Leshrac",
-                    "Pangolier",
-                    "Medusa"
-                  ],
-                  "team1": [
-                    "Snapfire",
-                    "Faceless Void",
-                    "Io",
-                    "Lion",
-                    "Doom"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "33m11s"
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-TeamSecret-9Pandas",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Secret",
-            "teamName2": "9Pandas",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689853500",
-            "date": "July 20, 2023 - 06:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Monkey King",
-                    "Enchantress",
-                    "Timbersaw",
-                    "Slark"
-                  ],
-                  "team1": [
-                    "Tinker",
-                    "Beastmaster",
-                    "Windranger",
-                    "Rubick",
-                    "Undying"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "16m04s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Bloodseeker",
-                    "Chen",
-                    "Timbersaw",
-                    "Lion"
-                  ],
-                  "team1": [
-                    "Clinkz",
-                    "Juggernaut",
-                    "Shadow Demon",
-                    "Doom",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "35m19s"
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-OG-XtremeGaming",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "OG",
-            "teamName2": "Xtreme Gaming",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689853500",
-            "date": "July 20, 2023 - 06:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Enigma",
-                    "Venomancer",
-                    "Ember Spirit",
-                    "Phantom Lancer",
-                    "Monkey King"
-                  ],
-                  "team1": [
-                    "Beastmaster",
-                    "Mirana",
-                    "Dragon Knight",
-                    "Drow Ranger",
-                    "Undying"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "38m01s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Enigma",
-                    "Storm Spirit",
-                    "Tidehunter",
-                    "Shadow Demon",
-                    "Juggernaut"
-                  ],
-                  "team1": [
-                    "Slark",
-                    "Pangolier",
-                    "Elder Titan",
-                    "Mars",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "37m11s"
-              }
-            }
-          }
-        }
-      }
-    },
-    "groupStageMatchs": {
-      "updatedTime": 1689973463269,
-      "matchsData": {
-        "July 21-A": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-XtremeGaming-QuestEsports",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Xtreme Gaming",
-            "teamName2": "Quest Esports",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689930000",
-            "date": "July 21, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Elder Titan",
-                    "Pangolier",
-                    "Morphling",
-                    "Monkey King",
-                    "Broodmother"
-                  ],
-                  "team1": [
-                    "Slark",
-                    "Mirana",
-                    "Snapfire",
-                    "Mars",
-                    "Shadow Demon"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "41m47s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Elder Titan",
-                    "Storm Spirit",
-                    "Skywrath Mage",
-                    "Faceless Void",
-                    "Pudge"
-                  ],
-                  "team1": [
-                    "Slark",
-                    "Pangolier",
-                    "Silencer",
-                    "Dark Seer",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "52m43s"
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-GaiminGladiators-TeamSpirit",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Gaimin Gladiators",
-            "teamName2": "Team Spirit",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689930000",
-            "date": "July 21, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Io",
-                    "Razor",
-                    "Underlord",
-                    "Rubick",
-                    "Sven"
-                  ],
-                  "team1": [
-                    "Ogre Magi",
-                    "Drow Ranger",
-                    "Lion",
-                    "Leshrac",
-                    "Elder Titan"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "53m05s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Beastmaster",
-                    "Enchantress",
-                    "Lion",
-                    "Lifestealer",
-                    "Templar Assassin"
-                  ],
-                  "team1": [
-                    "Winter Wyvern",
-                    "Mars",
-                    "Rubick",
-                    "Bloodseeker",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "47m20s"
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-EvilGeniuses-9Pandas",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Evil Geniuses",
-            "teamName2": "9Pandas",
-            "scoreTeam1": "2",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689930000",
-            "date": "July 21, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Legion Commander",
-                    "Snapfire",
-                    "Enchantress",
-                    "Chaos Knight",
-                    "Lycan"
-                  ],
-                  "team1": [
-                    "Dragon Knight",
-                    "Pudge",
-                    "Visage",
-                    "Shadow Demon",
-                    "Broodmother"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "32m55s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Legion Commander",
-                    "Enchantress",
-                    "Morphling",
-                    "Bounty Hunter"
-                  ],
-                  "team1": [
-                    "Templar Assassin",
-                    "Clinkz",
-                    "Shadow Demon",
-                    "Doom",
-                    "Rubick"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "36m33s"
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-PSG.LGD-OG",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "PSG.LGD",
-            "teamName2": "OG",
-            "scoreTeam1": "2",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689930000",
-            "date": "July 21, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Elder Titan",
-                    "Bloodseeker",
-                    "Doom",
-                    "Batrider",
-                    "Lina"
-                  ],
-                  "team1": [
-                    "Spirit Breaker",
-                    "Templar Assassin",
-                    "Dark Willow",
-                    "Phoenix",
-                    "Timbersaw"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "39m45s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Storm Spirit",
-                    "Keeper of the Light",
-                    "Mars",
-                    "Templar Assassin"
-                  ],
-                  "team1": [
-                    "Sven",
-                    "Monkey King",
-                    "Visage",
-                    "Puck",
-                    "Io"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "27m34s"
-              }
-            }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-GaiminGladiators-PSG.LGD",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Gaimin Gladiators",
-            "teamName2": "PSG.LGD",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689954600",
-            "date": "July 21, 2023 - 10:50 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Broodmother",
-                    "Pangolier",
-                    "Disruptor",
-                    "Mirana",
-                    "Underlord"
-                  ],
-                  "team1": [
-                    "Ursa",
-                    "Ember Spirit",
-                    "Jakiro",
-                    "Phoenix",
-                    "Spirit Breaker"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "30m34s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Broodmother",
-                    "Lion",
-                    "Pangolier",
-                    "Rubick",
-                    "Faceless Void"
-                  ],
-                  "team1": [
-                    "Luna",
-                    "Bane",
-                    "Primal Beast",
-                    "Keeper of the Light",
-                    "Timbersaw"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "47m21s"
-              }
-            }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-EvilGeniuses-TeamSpirit",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Evil Geniuses",
-            "teamName2": "Team Spirit",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689951000",
-            "date": "July 21, 2023 - 09:50 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Legion Commander",
-                    "Skywrath Mage",
-                    "Clinkz",
-                    "Pangolier",
-                    "Batrider"
-                  ],
-                  "team1": [
-                    "Monkey King",
-                    "Leshrac",
-                    "Clockwerk",
-                    "Chen",
-                    "Mars"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "41m46s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Naga Siren",
-                    "Rubick",
-                    "Venomancer",
-                    "Lycan"
-                  ],
-                  "team1": [
-                    "Puck",
-                    "Medusa",
-                    "Timbersaw",
-                    "Batrider",
-                    "Silencer"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "40m37s"
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-QuestEsports-9Pandas",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Quest Esports",
-            "teamName2": "9Pandas",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689948900",
-            "date": "July 21, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Lion",
-                    "Primal Beast",
-                    "Shadow Demon",
-                    "Juggernaut",
-                    "Puck"
-                  ],
-                  "team1": [
-                    "Batrider",
-                    "Drow Ranger",
-                    "Elder Titan",
-                    "Doom",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "36m19s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Shadow Demon",
-                    "Tiny",
-                    "Terrorblade",
-                    "Techies",
-                    "Dark Seer"
-                  ],
-                  "team1": [
-                    "Alchemist",
-                    "Elder Titan",
-                    "Lycan",
-                    "Storm Spirit",
-                    "Skywrath Mage"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "70m46s"
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-XtremeGaming-OG",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Xtreme Gaming",
-            "teamName2": "OG",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689948900",
-            "date": "July 21, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Ember Spirit",
-                    "Silencer",
-                    "Meepo",
-                    "Alchemist"
-                  ],
-                  "team1": [
-                    "Templar Assassin",
-                    "Mirana",
-                    "Beastmaster",
-                    "Dragon Knight",
-                    "Enigma"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "29m04s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Clockwerk",
-                    "Storm Spirit",
-                    "Warlock",
-                    "Medusa",
-                    "Primal Beast"
-                  ],
-                  "team1": [
-                    "Slark",
-                    "Windranger",
-                    "Lion",
-                    "Enigma",
-                    "Elder Titan"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "32m06s"
-              }
-            }
-          }
-        },
-        "July 21-B": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-TundraEsports-BetBoomTeam",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Tundra Esports",
-            "teamName2": "BetBoom Team",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689942300",
-            "date": "July 21, 2023 - 07:25 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Io",
-                    "Razor",
-                    "Doom",
-                    "Rubick",
-                    "Phantom Lancer"
-                  ],
-                  "team1": [
-                    "Axe",
-                    "Terrorblade",
-                    "Techies",
-                    "Snapfire",
-                    "Undying"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "60m27s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Dark Seer",
-                    "Lion",
-                    "Chen",
-                    "Terrorblade",
-                    "Mars"
-                  ],
-                  "team1": [
-                    "Windranger",
-                    "Legion Commander",
-                    "Enchantress",
-                    "Oracle",
-                    "Broodmother"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "44m52s"
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-TeamAster-TeamLiquid",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Aster",
-            "teamName2": "Team Liquid",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689941100",
-            "date": "July 21, 2023 - 07:05 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Clockwerk",
-                    "Tidehunter",
-                    "Medusa",
-                    "Shadow Demon"
-                  ],
-                  "team1": [
-                    "Windranger",
-                    "Rubick",
-                    "Templar Assassin",
-                    "Batrider",
-                    "Timbersaw"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "42m43s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Slark",
-                    "Mars",
-                    "Lich",
-                    "Ember Spirit"
-                  ],
-                  "team1": [
-                    "Pangolier",
-                    "Faceless Void",
-                    "Elder Titan",
-                    "Rubick",
-                    "Broodmother"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "41m30s"
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-ShopifyRebellion-TSM",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Shopify Rebellion",
-            "teamName2": "TSM",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689939000",
-            "date": "July 21, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Io",
-                    "Leshrac",
-                    "Legion Commander",
-                    "Clinkz",
-                    "Faceless Void"
-                  ],
-                  "team1": [
-                    "Visage",
-                    "Puck",
-                    "Rubick",
-                    "Terrorblade",
-                    "Chen"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "27m23s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Io",
-                    "Leshrac",
-                    "Legion Commander",
-                    "Skywrath Mage",
-                    "Naga Siren"
-                  ],
-                  "team1": [
-                    "Pangolier",
-                    "Shadow Demon",
-                    "Bloodseeker",
-                    "Rubick",
-                    "Broodmother"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "30m44s"
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-TalonEsports-TeamSecret",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Talon Esports",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "2",
-            "scoreTeam2": "0",
-            "status": "finished",
-            "timestamp": "1689939000",
-            "date": "July 21, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Enigma",
-                    "Timbersaw",
-                    "Tiny",
-                    "Templar Assassin",
-                    "Pudge"
-                  ],
-                  "team1": [
-                    "Terrorblade",
-                    "Dark Seer",
-                    "Crystal Maiden",
-                    "Elder Titan",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "32m51s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Silencer",
-                    "Storm Spirit",
-                    "Underlord",
-                    "Shadow Demon",
-                    "Terrorblade"
-                  ],
-                  "team1": [
-                    "Beastmaster",
-                    "Ogre Magi",
-                    "Ember Spirit",
-                    "Medusa",
-                    "Snapfire"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "32m27s"
-              }
-            }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-TeamAster-TeamSecret",
-            "bo": 2,
-            "remainingTime": "LIVE!",
-            "teamName1": "Team Aster",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "1",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1689965100",
-            "date": "July 21, 2023 - 13:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Timbersaw",
-                    "Storm Spirit",
-                    "Rubick",
-                    "Venomancer",
-                    "Troll Warlord"
-                  ],
-                  "team1": [
-                    "Tidehunter",
-                    "Puck",
-                    "Silencer",
-                    "Batrider",
-                    "Monkey King"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "68m51s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-TundraEsports-TalonEsports",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Tundra Esports",
-            "teamName2": "Talon Esports",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689961500",
-            "date": "July 21, 2023 - 12:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Pangolier",
-                    "Batrider",
-                    "Timbersaw",
-                    "Clockwerk",
-                    "Medusa"
-                  ],
-                  "team1": [
-                    "Rubick",
-                    "Spirit Breaker",
-                    "Monkey King",
-                    "Queen of Pain",
-                    "Enigma"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "38m55s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Timbersaw",
-                    "Doom",
-                    "Terrorblade",
-                    "Lion",
-                    "Chen"
-                  ],
-                  "team1": [
-                    "Medusa",
-                    "Meepo",
-                    "Rubick",
-                    "Storm Spirit",
-                    "Silencer"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "36m01s"
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-ShopifyRebellion-BetBoomTeam",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Shopify Rebellion",
-            "teamName2": "BetBoom Team",
-            "scoreTeam1": "0",
-            "scoreTeam2": "2",
-            "status": "finished",
-            "timestamp": "1689960000",
-            "date": "July 21, 2023 - 12:20 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Rubick",
-                    "Naga Siren",
-                    "Enchantress",
-                    "Beastmaster",
-                    "Pangolier"
-                  ],
-                  "team1": [
-                    "Batrider",
-                    "Snapfire",
-                    "Techies",
-                    "Legion Commander",
-                    "Broodmother"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "33m56s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Medusa",
-                    "Beastmaster",
-                    "Rubick",
-                    "Mars"
-                  ],
-                  "team1": [
-                    "Puck",
-                    "Bloodseeker",
-                    "Lich",
-                    "Doom",
-                    "Pugna"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "42m02s"
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-TeamLiquid-TSM",
-            "bo": 2,
-            "remainingTime": "finished",
-            "teamName1": "Team Liquid",
-            "teamName2": "TSM",
-            "scoreTeam1": "1",
-            "scoreTeam2": "1",
-            "status": "finished",
-            "timestamp": "1689957900",
-            "date": "July 21, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [
-                    "Snapfire",
-                    "Timbersaw",
-                    "Enchantress",
-                    "Dark Willow",
-                    "Lycan"
-                  ],
-                  "team1": [
-                    "Juggernaut",
-                    "Pangolier",
-                    "Clockwerk",
-                    "Rubick",
-                    "Broodmother"
-                  ]
-                },
-                "winner": "team1",
-                "duration": "53m41s"
-              },
-              "game2": {
-                "picks": {
-                  "team0": [
-                    "Undying",
-                    "Razor",
-                    "Keeper of the Light",
-                    "Ember Spirit",
-                    "Sven"
-                  ],
-                  "team1": [
-                    "Spirit Breaker",
-                    "Morphling",
-                    "Dark Seer",
-                    "Leshrac",
-                    "Io"
-                  ]
-                },
-                "winner": "team2",
-                "duration": "28m16s"
-              }
-            }
-          }
-        },
-        "July 22-A": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-9Pandas-OG",
-            "bo": 2,
-            "remainingTime": "11h 55m 36s",
-            "teamName1": "9Pandas",
-            "teamName2": "OG",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690016400",
-            "date": "July 22, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-GaiminGladiators-EvilGeniuses",
-            "bo": 2,
-            "remainingTime": "11h 55m 36s",
-            "teamName1": "Gaimin Gladiators",
-            "teamName2": "Evil Geniuses",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690016400",
-            "date": "July 22, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-QuestEsports-TeamSpirit",
-            "bo": 2,
-            "remainingTime": "11h 55m 36s",
-            "teamName1": "Quest Esports",
-            "teamName2": "Team Spirit",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690016400",
-            "date": "July 22, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-XtremeGaming-PSG.LGD",
-            "bo": 2,
-            "remainingTime": "11h 55m 36s",
-            "teamName1": "Xtreme Gaming",
-            "teamName2": "PSG.LGD",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690016400",
-            "date": "July 22, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-TeamSpirit-PSG.LGD",
-            "bo": 2,
-            "remainingTime": "17h 10m 36s",
-            "teamName1": "Team Spirit",
-            "teamName2": "PSG.LGD",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690035300",
-            "date": "July 22, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-GaiminGladiators-QuestEsports",
-            "bo": 2,
-            "remainingTime": "17h 10m 36s",
-            "teamName1": "Gaimin Gladiators",
-            "teamName2": "Quest Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690035300",
-            "date": "July 22, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-9Pandas-XtremeGaming",
-            "bo": 2,
-            "remainingTime": "17h 10m 36s",
-            "teamName1": "9Pandas",
-            "teamName2": "Xtreme Gaming",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690035300",
-            "date": "July 22, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-OG-EvilGeniuses",
-            "bo": 2,
-            "remainingTime": "17h 10m 36s",
-            "teamName1": "OG",
-            "teamName2": "Evil Geniuses",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690035300",
-            "date": "July 22, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          }
-        },
-        "July 22-B": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-TundraEsports-ShopifyRebellion",
-            "bo": 2,
-            "remainingTime": "14h 25m 36s",
-            "teamName1": "Tundra Esports",
-            "teamName2": "Shopify Rebellion",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690025400",
-            "date": "July 22, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-TeamAster-TalonEsports",
-            "bo": 2,
-            "remainingTime": "14h 25m 36s",
-            "teamName1": "Team Aster",
-            "teamName2": "Talon Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690025400",
-            "date": "July 22, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-TeamLiquid-BetBoomTeam",
-            "bo": 2,
-            "remainingTime": "14h 25m 36s",
-            "teamName1": "Team Liquid",
-            "teamName2": "BetBoom Team",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690025400",
-            "date": "July 22, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-TSM-TeamSecret",
-            "bo": 2,
-            "remainingTime": "14h 25m 36s",
-            "teamName1": "TSM",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690025400",
-            "date": "July 22, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-TSM-TalonEsports",
-            "bo": 2,
-            "remainingTime": "19h 40m 36s",
-            "teamName1": "TSM",
-            "teamName2": "Talon Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690044300",
-            "date": "July 22, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-TundraEsports-TeamAster",
-            "bo": 2,
-            "remainingTime": "19h 40m 36s",
-            "teamName1": "Tundra Esports",
-            "teamName2": "Team Aster",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690044300",
-            "date": "July 22, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-TeamLiquid-ShopifyRebellion",
-            "bo": 2,
-            "remainingTime": "19h 40m 36s",
-            "teamName1": "Team Liquid",
-            "teamName2": "Shopify Rebellion",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690044300",
-            "date": "July 22, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-TeamSecret-BetBoomTeam",
-            "bo": 2,
-            "remainingTime": "19h 40m 36s",
-            "teamName1": "Team Secret",
-            "teamName2": "BetBoom Team",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690044300",
-            "date": "July 22, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          }
-        },
-        "July 23-A": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-QuestEsports-EvilGeniuses",
-            "bo": 2,
-            "remainingTime": "1d 11h 55m",
-            "teamName1": "Quest Esports",
-            "teamName2": "Evil Geniuses",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690102800",
-            "date": "July 23, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-GaiminGladiators-XtremeGaming",
-            "bo": 2,
-            "remainingTime": "1d 11h 55m",
-            "teamName1": "Gaimin Gladiators",
-            "teamName2": "Xtreme Gaming",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690102800",
-            "date": "July 23, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-9Pandas-PSG.LGD",
-            "bo": 2,
-            "remainingTime": "1d 11h 55m",
-            "teamName1": "9Pandas",
-            "teamName2": "PSG.LGD",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690102800",
-            "date": "July 23, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-OG-TeamSpirit",
-            "bo": 2,
-            "remainingTime": "1d 11h 55m",
-            "teamName1": "OG",
-            "teamName2": "Team Spirit",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690102800",
-            "date": "July 23, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-GaiminGladiators-9Pandas",
-            "bo": 2,
-            "remainingTime": "1d 17h 10m",
-            "teamName1": "Gaimin Gladiators",
-            "teamName2": "9Pandas",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690121700",
-            "date": "July 23, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-PSG.LGD-EvilGeniuses",
-            "bo": 2,
-            "remainingTime": "1d 17h 10m",
-            "teamName1": "PSG.LGD",
-            "teamName2": "Evil Geniuses",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690121700",
-            "date": "July 23, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-OG-QuestEsports",
-            "bo": 2,
-            "remainingTime": "1d 17h 10m",
-            "teamName1": "OG",
-            "teamName2": "Quest Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690121700",
-            "date": "July 23, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-TeamSpirit-XtremeGaming",
-            "bo": 2,
-            "remainingTime": "1d 17h 10m",
-            "teamName1": "Team Spirit",
-            "teamName2": "Xtreme Gaming",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690121700",
-            "date": "July 23, 2023 - 09:15 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          }
-        },
-        "July 23-B": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-BetBoomTeam-TalonEsports",
-            "bo": 2,
-            "remainingTime": "1d 14h 25m",
-            "teamName1": "BetBoom Team",
-            "teamName2": "Talon Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690111800",
-            "date": "July 23, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-TundraEsports-TeamLiquid",
-            "bo": 2,
-            "remainingTime": "1d 14h 25m",
-            "teamName1": "Tundra Esports",
-            "teamName2": "Team Liquid",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690111800",
-            "date": "July 23, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-TSM-TeamAster",
-            "bo": 2,
-            "remainingTime": "1d 14h 25m",
-            "teamName1": "TSM",
-            "teamName2": "Team Aster",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690111800",
-            "date": "July 23, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-ShopifyRebellion-TeamSecret",
-            "bo": 2,
-            "remainingTime": "1d 14h 25m",
-            "teamName1": "Shopify Rebellion",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690111800",
-            "date": "July 23, 2023 - 06:30 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "4": {
-            "id": "Riyadh_Masters2023-2-TeamSecret-TeamLiquid",
-            "bo": 2,
-            "remainingTime": "1d 19h 40m",
-            "teamName1": "Team Secret",
-            "teamName2": "Team Liquid",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690130700",
-            "date": "July 23, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "5": {
-            "id": "Riyadh_Masters2023-2-TalonEsports-ShopifyRebellion",
-            "bo": 2,
-            "remainingTime": "1d 19h 40m",
-            "teamName1": "Talon Esports",
-            "teamName2": "Shopify Rebellion",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690130700",
-            "date": "July 23, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "6": {
-            "id": "Riyadh_Masters2023-2-BetBoomTeam-TeamAster",
-            "bo": 2,
-            "remainingTime": "1d 19h 40m",
-            "teamName1": "BetBoom Team",
-            "teamName2": "Team Aster",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690130700",
-            "date": "July 23, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "7": {
-            "id": "Riyadh_Masters2023-2-TundraEsports-TSM",
-            "bo": 2,
-            "remainingTime": "1d 19h 40m",
-            "teamName1": "Tundra Esports",
-            "teamName2": "TSM",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690130700",
-            "date": "July 23, 2023 - 11:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          }
-        },
-        "July 24-A": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-PSG.LGD-QuestEsports",
-            "bo": 2,
-            "remainingTime": "2d 11h 55m",
-            "teamName1": "PSG.LGD",
-            "teamName2": "Quest Esports",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690189200",
-            "date": "July 24, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-EvilGeniuses-XtremeGaming",
-            "bo": 2,
-            "remainingTime": "2d 11h 55m",
-            "teamName1": "Evil Geniuses",
-            "teamName2": "Xtreme Gaming",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690189200",
-            "date": "July 24, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-TeamSpirit-9Pandas",
-            "bo": 2,
-            "remainingTime": "2d 11h 55m",
-            "teamName1": "Team Spirit",
-            "teamName2": "9Pandas",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690189200",
-            "date": "July 24, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-GaiminGladiators-OG",
-            "bo": 2,
-            "remainingTime": "2d 11h 55m",
-            "teamName1": "Gaimin Gladiators",
-            "teamName2": "OG",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690189200",
-            "date": "July 24, 2023 - 04:00 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          }
-        },
-        "July 24-B": {
-          "0": {
-            "id": "Riyadh_Masters2023-2-ShopifyRebellion-TeamAster",
-            "bo": 2,
-            "remainingTime": "2d 14h 40m",
-            "teamName1": "Shopify Rebellion",
-            "teamName2": "Team Aster",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690199100",
-            "date": "July 24, 2023 - 06:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "1": {
-            "id": "Riyadh_Masters2023-2-TalonEsports-TeamLiquid",
-            "bo": 2,
-            "remainingTime": "2d 14h 40m",
-            "teamName1": "Talon Esports",
-            "teamName2": "Team Liquid",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690199100",
-            "date": "July 24, 2023 - 06:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "2": {
-            "id": "Riyadh_Masters2023-2-BetBoomTeam-TSM",
-            "bo": 2,
-            "remainingTime": "2d 14h 40m",
-            "teamName1": "BetBoom Team",
-            "teamName2": "TSM",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690199100",
-            "date": "July 24, 2023 - 06:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          },
-          "3": {
-            "id": "Riyadh_Masters2023-2-TundraEsports-TeamSecret",
-            "bo": 2,
-            "remainingTime": "2d 14h 40m",
-            "teamName1": "Tundra Esports",
-            "teamName2": "Team Secret",
-            "scoreTeam1": "0",
-            "scoreTeam2": "0",
-            "status": "pending",
-            "timestamp": "1690199100",
-            "date": "July 24, 2023 - 06:45 UTC-5",
-            "games": {
-              "game1": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              },
-              "game2": {
-                "picks": {
-                  "team0": [],
-                  "team1": []
-                },
-                "winner": "",
-                "duration": ""
-              }
-            }
-          }
-        }
+        "Grand Final": [
+          null
+        ]
+      },
+      "matchPicksTime": {
+        "7297822682": 1692747514709,
+        "7297933892": 1692747514709,
+        "7298043428": 1692747514709,
+        "7298163342": 1692747514709,
+        "": 1692747514710,
+        "7298284680": 1692747514710,
+        "7298351549": 1692747514710,
+        "7298423611": 1692747514710,
+        "7298503708": 1692747514710
       }
     }
-  }
+  },
+  "updatedTime": 1692747514888
 }

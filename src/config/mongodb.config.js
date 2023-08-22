@@ -1,1 +1,1 @@
-export const MONGODB_CNX_STR = 'mongodb+srv://userprofile:userprofile@probet.qlmrztq.mongodb.net/prjBet'
+export const MONGODB_CNX_STR = 'mongodb+srv://userTest:userTest@probet.qlmrztq.mongodb.net/prjBet'

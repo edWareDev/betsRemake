@@ -24,7 +24,7 @@ $bp-xsmall: 36em;
 
 html {
     font-size: 10px;
-
+    font-family: OverpassRegular;
     @media only screen and (max-width: $bp-xxlarge) {
         font-size: 9px;
     }
@@ -55,4 +55,5 @@ img {
 body {
     // background-color: seagreen;
     min-height: 100vh;
+    overflow: hidden;
 }

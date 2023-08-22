@@ -8,4 +8,4 @@ export const viewsRouter = Router()
 
 viewsRouter.get('/', isAutenticated, login)
 viewsRouter.get('/register', isAutenticated, register)
-viewsRouter.get('/predicciones', autenticacion, predicciones)
+viewsRouter.get('/predicciones', predicciones)
